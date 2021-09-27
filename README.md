@@ -2,27 +2,37 @@
 
 ## Graphics related issues
 
-1. 5 seconds black screen glitch (not fixed)
-2. No HDMI (not fixed)
-3. Issues with “default” ig-platform-id value (wa)
-4. HiDPi issues (fixed/wa)
-5. Black screen after wake up (fixed/wa) > -noDC9
+| Bug | Description | Details |
+| ------ | ------ | ------ |
+| 1. 5 seconds black screen glitch | LINK | Not fixed |
+| 2. No HDMI | LINK | Not fixed |
+| 3. Issues with “default” ig-platform-id value | Link | WA |
+| 4. HiDPi issues | LINK | Fixed/WA |
+| 5. Black screen after wake up | LINK | Fixed/WA > -noDC9 |
 
 ## USB-TB wa
 
-1. Thunderbolt 3 > no drivers or patches available (working if you plug device before boot)
-2. USB mapping on macOS may / may not work properly > better to map in Windows using that tool
+| Bug | Description | Details |
+| ------ | ------ | ------ |
+| 1. Thunderbolt 3 > no drivers or patches available | LINK | (working if you plug device before boot) |
+| 2. USB mapping on macOS may / may not work properly | LINK | > better to map in Windows using THAT tool |
 
 ## Sleep/power issues / wa
 
-1. Hibernation is not working > stuck on booting, garbled screen
-2. Some Ice Lake machines have AOAC enabled (can’t be disabled in most part of laptops because of “locked” BIOS):
-	* Use daliansky patches/SSDTs > not stable, battery life is low
-	* Unlock BIOS settings > disable AOAC (Low power idle) > check
-	* Patch FACP (still not properly tested)
+| Bug | Description | Details |
+| ------ | ------ | ------ |
+| 1. Hibernation is not working | stuck on booting, garbled screen | ?? |
+| 2. Sleep issues (wake-up problem) | Some Ice Lake machines have AOAC enabled (can’t be disabled in most part of laptops because of “locked” BIOS) | * |
+	* 1) Use daliansky patches/SSDTs (LINK) > not so stable: battery life is low, some machines can't wake even with that patches
+	* 2) Unlock BIOS settings > disable AOAC (Low power S0 idle) > the most hard way, but the most "stable"
+	* 3) Patch FACP (still not properly tested) > patching FACP with OC > ACPI > Patch seems 
+	to be not working for some reason (patching has no effect at all). 
+	But it seems it's possible to do patching (disabling AOAC) with the help of that efi driver > LINK
 
 ### Collection of kernel panics / wa
 
-1. EL[0] > need to enable Apple GuC firmware (Whatevergreen)
-2. AppleGFXHDA > No-gfx-hda or patch AppleALC yourself
-3. -noDC9 > black screen after wake (don’t mix that issue with black screen after wake up because of AOAC
+| Bug | Description | Details |
+| ------ | ------ | ------ |
+| 1. EL[0] | Need to enable Apple GuC firmware | (Whatevergreen) |
+| 2. AppleGFXHDA |  No-gfx-hda or patch AppleALC yourself | LINK |
+| 3. -noDC9 | Black screen after wake (graphics related issue) | LINK |
