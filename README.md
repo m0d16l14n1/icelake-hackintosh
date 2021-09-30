@@ -31,7 +31,9 @@
 ***
 1) Use daliansky patches/SSDTs [LINK](https://github.com/alkindivv/OC-Little-English/tree/main/OC-Little-English/01-About%20AOAC%20) > Isn't so stable: battery life is low, some machines can't wake even with that patches
 2) Unlock BIOS settings > disable AOAC (Low power S0 idle or any S0ix stuff) > It's the most hard way, but the most "stable"
-3) !!!Patch FACP table!!! (still not properly tested) > It seems it's possible to do patching (disabling AOAC) with the help of that efi driver > [LINK](https://github.com/m0d16l14n1/Hasee-KingBook-X57S1/blob/master/Tools/AcpiPatcher.efi.zip). Patcher was found on some reddit topic. Credit goes to [datasone](https://github.com/datasone)
+3) !!!Patch FACP table!!! (I have 1 positive result of that method) > It seems it's possible to do patching (disabling AOAC) with the help of that efi driver > [LINK](https://github.com/m0d16l14n1/Hasee-KingBook-X57S1/blob/master/Tools/AcpiPatcher.efi.zip). Patcher was found on some reddit [topic](https://www.reddit.com/r/Dell/comments/h0r56s/getting_back_s3_sleep_and_disabling_modern/). Credit for tool goes to [datasone](https://github.com/datasone)
+
+It's still might be a *little* problem there: your OEM vendor (for example [Dell](https://www.dell.com/community/XPS/XPS-15-9570-BIOS-1-3-0-sleep-mode-gone/td-p/6131926))) might disable/remove S3 state/event from DSDT at all. So better to check it and add/patch it back. 
 ***
 
 ### Collection of kernel panics / wa
