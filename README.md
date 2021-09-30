@@ -1,5 +1,7 @@
 # icelake
 
+[![Gitter](https://badges.gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community.svg)](https://gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ## Graphics related issues
 
 | Bug | Description/Details | Status |
