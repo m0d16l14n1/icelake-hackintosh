@@ -6,7 +6,7 @@
 
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
-| 1. 7-10 seconds black screen glitch after boot | [LINK](https://github.com/acidanthera/bugtracker/issues/1329) | FIXED/WIP - [details](https://github.com/acidanthera/bugtracker/issues/1805)|
+| 1. 7-10 seconds black screen glitch after boot | [LINK](https://github.com/acidanthera/bugtracker/issues/1329) | [FIXED](https://github.com/acidanthera/WhateverGreen/pull/92) - [details](https://github.com/acidanthera/bugtracker/issues/1805)|
 | 2. **No HDMI support** | [LINK](https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-711080776) | **NOT FIXED** |
 | 3. Issues with “default” ig-platform-id value | With default value (injected by WEG) in most cases laptop can't properly wake from sleep (result is a black screen and no panic/logs) | WA > Check 0x8A510002 (it's default value from MacBookAir9,1 which is working properly) |
 | 4. HiDPi issues | [LINK](https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-790013456) | FIXED/WA > add AAPL,GfxYTile to iGPU device properties |
