@@ -19,7 +19,7 @@
 | ------ | ------ | ------ |
 | 1. Thunderbolt 3 > no drivers or patches available | "No drivers" in System report | Still working, if you plug device before boot |
 | 2. USB mapping on macOS may / may not work properly due to TXHC | Randomly it will fail to map it properly (TXHC) | Better to map in Windows using [THAT](https://github.com/USBToolBox/tool) tool |
-| 3. **Type-C to HDMI is not working on some of Ice Lake laptops (for example some of Dell laptops)** | Maybe because there is no Thunderbolt 3 support on that laptops > but it's working with video output on Linux (*Ubuntu*) | **Currently no WA available / No fix or patch** | 
+| 3. **Type-C to HDMI is not working on some of Ice Lake laptops (for example some of Dell laptops)** | `[   59.201023]: [IGFB][LOG  ][HOT_PLUG  ] Hotplug detected on ddi = 2 [   59.204049]: [IGFB][LOG  ][HOT_PLUG  ] HPD is low [   59.204066]: [IGFB][INFO ][HOT_PLUG  ] ddi 2 isHPDLow = 1 emptyDongle = 0 sinkCount = 0 sinkCountChanged = 0 portMode = 4 [   59.204075]: [IGFB][LOG  ][HOT_PLUG  ] Returning as HPD is low` | **Currently no WA available / No fix or patch** | 
 
 ## Sleep/power issues / WA
 
