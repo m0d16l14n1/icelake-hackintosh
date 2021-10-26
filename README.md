@@ -13,6 +13,14 @@
 | 5. Black screen after wake up with kernel panic after | [LINK](https://github.com/acidanthera/bugtracker/issues/1207) | FIXED/WA > add "-noDC9" boot-arg |
 | 6. **Screen backlight dimming** | Some of Lenovo/Razer/HP laptops have that issue. Brightness is much lower than on Windows before a sleep-wake cycle. | **Currently no WA available / No fix or patch** |
 | 7. Black screen bug with 4k internal screens | Some Dells have that issue, still unclear why it's happening, no logs found | Currently no WA available / No fix or patch |
+| 8. Panic after waking from sleep with external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg "dc6config=0"** |
+
+**That's the explanation from [0xFireWolf]: 
+1) dc6config=0 will disable DC6. In essence, enableHWDC6() and disableHWDC6() become NOPs. i.e. They do nothing and simply return. 
+2) dc6config=1 will enable DC6. The effect is the same as when the boot argument is not present. 
+3) dc6config=5 will enable "DC6" but up to DC5. i.e. enableHWDC6() will write 0x1 to the low 2 bits of the register DC_STATE_EN.
+
+
 
 ## USB-TB (and video output related) issues and WA
 
@@ -42,4 +50,21 @@ It's still might be a *little* problem there: your OEM vendor (for example [Dell
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
 | 1. EL[0] was invalidated!! | [LINK](https://github.com/acidanthera/bugtracker/issues/1343) | Need to enable GuC firmware loading > use device property for iGPU or boot-arg "igfxfw=2" |
-| 2. AppleHDA panic if you connect external screen with speakers, which means no audio support for external screens | [1](https://github.com/acidanthera/bugtracker/issues/1616), [2](https://github.com/acidanthera/bugtracker/issues/1551), [3](https://github.com/acidanthera/bugtracker/issues/1283) | Add "No-gfx-hda" to HDEF (sound) device properties or [patch AppleALC yourself](https://github.com/acidanthera/bugtracker/issues/1283#issuecomment-824802110) |
+| 2. AppleHDA panic if you connect external screen with speakers, which means no audio support for external screens | [1](https://github.com/acidanthera/bugtracker/issues/1616), [2](https://github.com/acidanthera/bugtracker/issues/1551), [3](https://github.com/acidanthera/bugtracker/issues/1283) | Add "No-gfx-hda" to HDEF (sound) device properties or [patch AppleALC yourself](https://github.com/acidanthera/bugtracker/issues/1283#issuecomment-824802110) or if you really want to use external sound, just disable AppleALC, enable patch for renaming HDAS to HDEF, after that you will be able to use DP/HDMI sound with AppleGFXHDA, but no analog sound will be available (speakers/headphones)|
+
+### Thanks
+
+* To all of [acidanthera] and [dortania] team members for all of their kexts/guides and etc 
+* For maintaining this repo - [m0d16l14n1]
+* [OC-little] for AOAC patches and guides
+* [kingo132] for Ice Lake DBuf workaround
+* [0xFireWolf] for multiple Ice Lake graphics fixes (CDCLK/DVMT and DBuf), backlight smooth transition and many more explanations about ICL framebuffer stuff
+* Apple
+* To all members of Ice Lake gitter chat for providing panics/info
+
+[m0d16l14n1]: <https://github.com/m0d16l14n1>
+[OC-little]: <https://github.com/daliansky/OC-little>
+[acidanthera]: <https://github.com/acidanthera>
+[dortania]: <https://github.com/dortania>
+[0xFireWolf]: <https://github.com/0xFireWolf>
+[kingo132]: <https://github.com/kingo132>
