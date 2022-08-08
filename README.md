@@ -11,7 +11,7 @@
 | 3. Issues with “default” ig-platform-id value | With default value (injected by WEG) in most cases laptop can't properly wake from sleep (result is a black screen and no panic). Log is [here](https://github.com/m0d16l14n1/icelake-hackintosh/blob/main/Logs/%22Default%22%20WEG%20inject%20ig-platform-id%20wake-up%20issue%20(Link%20training%20problem%3F)/defaultwegframeFAILtoWAKE.txt) | WA > Check 0x8A510002 (it's default value from MacBookAir9,1 which is working properly) |
 | 4. HiDPi issues | [LINK](https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-790013456) | FIXED/WA > add AAPL,GfxYTile to iGPU device properties |
 | 5. Black screen after wake up with kernel panic after | [LINK](https://github.com/acidanthera/bugtracker/issues/1207) | FIXED/WA > add "-noDC9" boot-arg |
-| 6. **Screen backlight dimming** | Some of Lenovo/Razer/HP laptops have that issue. Brightness is much lower than on Windows before a sleep-wake cycle. | **Currently no WA available / No fix or patch** |
+| 6. **Screen backlight dimming** | Some of Lenovo/Razer/HP laptops have that issue. Brightness is much lower than on Windows before a sleep-wake cycle. | **FIXED** Just use brightness fix from WEG |
 | 7. Black screen bug with 4k internal screens | Some Dells have that issue, still unclear why it's happening, no logs found | Currently no WA available / No fix or patch |
 | 8. Panic after waking from sleep with external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg "dc6config=0"** |
 
