@@ -13,7 +13,7 @@
 | 5. Black screen after wake up with kernel panic after | [LINK](https://github.com/acidanthera/bugtracker/issues/1207) | FIXED/WA > add "-noDC9" boot-arg |
 | 6. **Screen backlight dimming** | Some of Lenovo/Razer/HP laptops have that issue. Brightness is much lower than on Windows before a sleep-wake cycle. | **FIXED** Just use brightness fix from WEG |
 | 7. Black screen bug with 4k internal screens | Some Dells have that issue, still unclear why it's happening, no logs found | Currently no WA available / No fix or patch |
-| 8. Panic after waking from sleep with external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg "dc6config=0"** |
+| 8. Panic after waking from sleep with external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg "dc6config=0" P.S. - it's might break your wakeup from sleep state in Ventura** |
 
 **That's the explanation from [0xFireWolf]: 
 1) dc6config=0 will disable DC6. In essence, enableHWDC6() and disableHWDC6() become NOPs. i.e. They do nothing and simply return. 
@@ -34,7 +34,7 @@
 
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
-| 1. **Hibernation is not working at all** | Stuck on booting or garbled screen right after selecting "macOS" drive in Boot Picker (OC) | Behavior is seems to be the same as it's mentioned [here](https://dortania.github.io/hackintosh/updates/2021/04/24/rocket-lake.html) in **"Power Cycle" part** |
+| 1. **Hibernation is not working at all** | Stuck on booting or garbled screen right after selecting "macOS" drive in Boot Picker (OC) | **FIXED, thanks to [CobanRamo] for finding and hint** |
 | 2. Sleep issues (wake-up problem) | Some Ice Lake machines have **AOAC enabled** (can’t be disabled in most part of laptops because of “locked” BIOS) | * |
 
 ***
@@ -59,6 +59,7 @@ It's still might be a *little* problem there: your OEM vendor (for example [Dell
 * [OC-little] for AOAC patches and guides
 * [kingo132] for Ice Lake DBuf workaround
 * [0xFireWolf] for multiple Ice Lake graphics fixes (CDCLK/DVMT and DBuf), backlight smooth transition and many more explanations about ICL framebuffer stuff
+* [CobanRamo] for finding, testing and sharing fix for hibernation
 * Apple
 * To all members of Ice Lake gitter chat for providing panics/info
 
@@ -68,3 +69,4 @@ It's still might be a *little* problem there: your OEM vendor (for example [Dell
 [dortania]: <https://github.com/dortania>
 [0xFireWolf]: <https://github.com/0xFireWolf>
 [kingo132]: <https://github.com/kingo132>
+[CobanRamo]: <https://github.com/CobanRamo>
