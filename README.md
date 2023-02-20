@@ -1,8 +1,8 @@
-# icelake
+## Ice Lake 10th gen issues on macOS (hackintosh)
 
 [![Gitter](https://badges.gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community.svg)](https://gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-## Graphics related issues
+### Graphics related issues
 
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
@@ -22,7 +22,7 @@
 
 
 
-## USB-TB (and video output related) issues and WA
+### USB-TB (and video output related) issues and WA
 
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
@@ -30,12 +30,12 @@
 | 2. USB mapping on macOS may / may not work properly due to TXHC | Randomly it will fail to map it properly (TXHC) | Better to map in Windows using [THAT](https://github.com/USBToolBox/tool) tool |
 | 3. **Type-C to HDMI is not working on some of Ice Lake laptops (for example some of Dell laptops)** | Seems the issue appears on Ice Lake laptops with no Thunderbolt support. Log is [here](https://github.com/m0d16l14n1/icelake-hackintosh/blob/main/Logs/Type-C%20to%20HDMI%20issue%20(dongle%20video%20ouput)/igfbType-CToHDMI.txt) | **Currently no WA available / No fix or patch** | 
 
-## Sleep/power issues / WA
+### Sleep/power issues / WA
 
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
 | 1. **Hibernation is not working at all** | Stuck on booting or garbled screen right after selecting "macOS" drive in Boot Picker (OC) | **FIXED, thanks to [CobanRamo] for finding and hint** |
-| 2. Sleep issues (wake-up problem) | Some Ice Lake machines have **AOAC enabled** (can’t be disabled in most part of laptops because of “locked” BIOS) | * |
+| 2. Sleep issues (wake-up problem) | Some Ice Lake machines have **AOAC enabled** (can’t be disabled in most part of laptops because of “locked” BIOS) | * (you might try to enable and use hibernation mode) |
 
 ***
 1) Use daliansky patches/SSDTs [LINK](https://github.com/alkindivv/OC-Little-English/tree/main/OC-Little-English/01-About%20AOAC%20) > Isn't so stable: battery life is low, some machines can't wake even with that patches
@@ -52,16 +52,16 @@ It's still might be a *little* problem there: your OEM vendor (for example [Dell
 | 1. EL[0] was invalidated!! | [LINK](https://github.com/acidanthera/bugtracker/issues/1343) | Need to enable GuC firmware loading > use device property for iGPU or boot-arg "igfxfw=2" |
 | 2. AppleHDA panic if you connect external screen with speakers, which means no audio support for external screens | [1](https://github.com/acidanthera/bugtracker/issues/1616), [2](https://github.com/acidanthera/bugtracker/issues/1551), [3](https://github.com/acidanthera/bugtracker/issues/1283) | Add "No-gfx-hda" to HDEF (sound) device properties or [patch AppleALC yourself](https://github.com/acidanthera/bugtracker/issues/1283#issuecomment-824802110) or if you really want to use external sound, just disable AppleALC, enable patch for renaming HDAS to HDEF, after that you will be able to use DP/HDMI sound with AppleGFXHDA, but no analog sound will be available (speakers/headphones)|
 
-### Thanks
+#### Thanks
 
 * To all of [acidanthera] and [dortania] team members for all of their kexts/guides and etc 
 * For maintaining this repo - [m0d16l14n1]
 * [OC-little] for AOAC patches and guides
 * [kingo132] for Ice Lake DBuf workaround
 * [0xFireWolf] for multiple Ice Lake graphics fixes (CDCLK/DVMT and DBuf), backlight smooth transition and many more explanations about ICL framebuffer stuff
-* [CobanRamo] for finding, testing and sharing fix for hibernation
+* [CobanRamo] for finding, test and sharing fix for hibernation
 * Apple
-* To all members of Ice Lake gitter chat for providing panics/info
+* To all members of Ice Lake gitter chat who provide and share panics/info
 
 [m0d16l14n1]: <https://github.com/m0d16l14n1>
 [OC-little]: <https://github.com/daliansky/OC-little>
