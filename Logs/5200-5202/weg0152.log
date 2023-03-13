@@ -1,0 +1,363 @@
+[    1.059890]: WhateverGreen      init: @ (DBG) WhateverGreen bootstrap DBG-163-2023-01-02
+[    1.068941]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableDrmdmaPowerGating
+[    1.077632]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableGfxCGPowerGating
+[    1.086604]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableUVDPowerGating
+[    1.095349]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableVCEPowerGating
+[    1.103628]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableDynamicGfxMGPowerGating
+[    1.112659]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableGmcPowerGating
+[    1.120656]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableAcpPowerGating
+[    1.128741]: WhateverGreen       rad: @ (DBG) not enabling CAIL_DisableSAMUPowerGating
+[    1.712834]: WhateverGreen       weg: @ (DBG) non-apple-fw proceeding with devprops 1
+[    2.006108]: WhateverGreen     iokit: @ (DBG) getOSData device-id has 8A52 value
+[    2.022567]: WhateverGreen       weg: @ (DBG) IGPU has real 8A52 acpi 8A52 fake 0000 and model Intel Iris Plus Graphics
+[    2.040618]: WhateverGreen       weg: @ (DBG) adding missing model Intel Iris Plus Graphics from autotodetect
+[    2.057815]: WhateverGreen       weg: @ (DBG) found existing built-in
+[    2.072759]: WhateverGreen     iokit: @ (DBG) getOSData applbkl was not found
+[    2.087749]: WhateverGreen       weg: @ (DBG) resulting applbkl value is 2
+[    2.664399]: WhateverGreen       weg: @ (DBG) detecting policy
+[    2.679311]: WhateverGreen       weg: @ (DBG) no external gpus
+[    2.694109]: WhateverGreen     iokit: @ (DBG) getOSData framebuffer-patch-enable was not found
+[    2.710481]: WhateverGreen     iokit: @ (DBG) getOSData framebuffer-patch0-enable was not found
+[    2.726854]: WhateverGreen     iokit: @ (DBG) getOSData igfxfw has 2 value
+[    2.742465]: WhateverGreen     iokit: @ (DBG) getOSData rps-control was not found
+[    2.758408]: WhateverGreen     iokit: @ (DBG) getOSData complete-modeset was not found
+[    2.774622]: WhateverGreen     iokit: @ (DBG) getOSData force-online was not found
+[    2.790706]: WhateverGreen     iokit: @ (DBG) getOSData igfxpavp was not found
+[    2.806590]: WhateverGreen     iokit: @ (DBG) getOSData max-backlight-freq was not found
+[    2.823097]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-steps has 2D value
+[    2.839371]: WhateverGreen      igfx: @ (DBG) BLS: User requested steps = 45.
+[    2.854891]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-interval has 7 value
+[    2.871149]: WhateverGreen      igfx: @ (DBG) BLS: User requested interval = 7.
+[    3.040697]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-threshold was not found
+[    3.056188]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-queue-size was not found
+[    3.071689]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-lowerbound was not found
+[    3.087010]: WhateverGreen     iokit: @ (DBG) getOSData backlight-smoother-upperbound was not found
+[    3.102170]: WhateverGreen     iokit: @ (DBG) getOSData dbuf-optimizer-delay was not found
+[    3.102191]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is empty. Will wait for the next invocation.
+[    3.132523]: WhateverGreen      igfx: @ (DBG) FCA: Enabled = 0.
+[    3.146137]: WhateverGreen      igfx: @ (DBG) RRS: Enabled = 1.
+[    3.173093]: WhateverGreen      igfx: @ (DBG) RWS: Enabled = 1.
+[    3.186550]: WhateverGreen    unfair: @ (DBG) disabling unfair gva due to missing boot argument
+[    3.201737]: WhateverGreen       weg: @ (DBG) vinfo 1: 1080:1920 32:7680:1
+[    3.215783]: WhateverGreen       weg: @ (DBG) vinfo 2:  67:240 7680:2:0
+[   22.838942]: WhateverGreen       weg: @ (DBG) applying backlight patch
+[   22.888178]: WhateverGreen      igfx: @ (DBG) RRS: Will setup the read register module for SKL/KBL/CFL/ICL platform.
+[   22.888220]: WhateverGreen      igfx: @ (DBG) RWS: Will setup the read register module for SKL/KBL/CFL/ICL platform.
+[   22.888312]: WhateverGreen      igfx: @ (DBG) CDC: Functions have been routed successfully.
+[   22.888315]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] Will setup the fix for CFL/ICL platform.
+[   22.888317]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will setup the smoother for CFL/ICL platform.
+[   22.888393]: WhateverGreen      igfx: @ (DBG) platform is snb 0 and list 0xFFFFFF7FA7757180
+[   23.223107]: WhateverGreen      igfx: @ (DBG) applyHdmiAutopatch framebufferId 8A520001 cpugen C
+[   23.223118]: WhateverGreen      igfx: @ (DBG) hdmi patching framebufferId 0x8A520001 failed
+[   23.223151]: WhateverGreen      igfx: @ (DBG) DBEO: The new optimizer value has been set to 1.
+[   23.224703]: WhateverGreen      igfx: @ (DBG) CDC: ProbeCDClockFrequency() DInfo: Called with controller at 0xffffffa53daba000.
+[   23.224716]: WhateverGreen      igfx: @ CDC: ProbeCDClockFrequency() DInfo: The current core display clock frequency is 172.8 MHz.
+[   23.224720]: WhateverGreen      igfx: @ (DBG) CDC: ProbeCDClockFrequency() DInfo: The currrent core display clock frequency is not supported.
+[   23.224726]: WhateverGreen      igfx: @ (DBG) CDC: sanitizeCDClockFrequency() DInfo: Reference frequency is 38.4 MHz.
+[   23.224729]: WhateverGreen      igfx: @ CDC: sanitizeCDClockFrequency() DInfo: Core Display Clock frequency will be set to 652.8 MHz.
+[   23.224734]: WhateverGreen      igfx: @ (DBG) CDC: sanitizeCDClockFrequency() DInfo: Core Display Clock PLL frequency will be set to 1305600000 Hz.
+[   23.224933]: WhateverGreen      igfx: @ (DBG) CDC: sanitizeCDClockFrequency() DInfo: Core Display Clock PLL has been disabled.
+[   23.225082]: WhateverGreen      igfx: @ (DBG) CDC: sanitizeCDClockFrequency() DInfo: Core Display Clock has been reprogrammed and PLL has been re-enabled.
+[   23.225089]: WhateverGreen      igfx: @ CDC: sanitizeCDClockFrequency() DInfo: Core Display Clock frequency is 652.8 MHz now.
+[   23.225095]: WhateverGreen      igfx: @ (DBG) CDC: ProbeCDClockFrequency() DInfo: The core display clock has been switched to a supported frequency.
+[   23.225100]: WhateverGreen      igfx: @ (DBG) CDC: ProbeCDClockFrequency() DInfo: Will invoke the original function.
+[   23.225181]: WhateverGreen      igfx: @ (DBG) CDC: ProbeCDClockFrequency() DInfo: The original function returns 0x4dd1e000.
+[   25.343385]: loadPrefs: IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2-9e5-747-b3422a8f61594f46 using new keyWhateverGreen       weg: @ (DBG) panel display set returned 1
+[   25.430637]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   25.430642]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   25.430645]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Backlight additional fix was entered.
+[   25.430663]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_FREQ1>: Called with register 0xc8254 and value 0x4571.
+[   25.430666]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_FREQ1>: Driver requested BXT_BLC_PWM_FREQ1 = 0x4571.
+[   25.430681]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_FREQ1>: System initialized with BXT_BLC_PWM_FREQ1 = 0x4b00.
+[   25.430737]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   25.430740]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   25.430743]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   25.430748]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   25.430786]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x00004b00; Target = 0x0000258e; Distance = 9586; Steps = 45.
+[   25.430854]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   25.430860]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   25.430863]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   25.430867]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   25.430869]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   25.430873]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   25.430884]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   25.430887]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   25.430890]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   25.430893]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   25.430896]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   25.430898]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   25.430903]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   25.430936]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   25.430939]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   25.430942]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   25.430945]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   25.430948]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   25.438492]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x00004a2b; Target = 0x0000258e; Distance = 9373; Steps = 45.
+[   25.780511]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request completed in 342027879 nanoseconds.
+[   29.621859]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.621867]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.621872]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.621877]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.621882]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.621889]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.621910]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.721680]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.721685]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.721688]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.721691]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.721694]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.721699]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.721705]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.721708]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.721711]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.721717]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.721719]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.721722]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.721726]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.721734]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.721736]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.721739]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.721742]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.721745]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.721745]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.721753]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.721758]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.721760]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.721763]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.721766]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.721769]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.721772]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.721773]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.721783]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.721786]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.721788]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.721789]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.721792]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.721795]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.721799]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.721819]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.817315]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.817319]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.817322]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.817324]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.817327]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.817331]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.817336]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.817339]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.817341]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.817344]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.817346]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.817348]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.817353]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.817355]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.817358]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.817360]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.817362]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.817369]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.817373]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.817375]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.817378]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.817380]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.817419]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.817422]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.817465]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.817468]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.817471]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.817474]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.817476]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.817478]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.817479]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.817495]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.896470]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.896474]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.896476]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.896479]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.896481]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.896485]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.896490]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.896493]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.896495]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.896498]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.896500]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.896502]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.896508]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.896510]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.896517]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.896519]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.896521]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.896568]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.896607]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.896609]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.896612]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.896615]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.896617]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.896620]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.896627]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.896629]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   29.896632]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   29.896637]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   29.896640]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   29.896642]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   29.896645]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   29.896654]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   29.896670]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   30.491840]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   30.491881]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   30.491885]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   30.491889]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   30.491892]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   30.491898]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   30.491920]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   30.539069]: Sandbox apply: colorsyncd[437] <bytes>WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   30.551033]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   30.551037]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   30.551040]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   30.551043]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   30.551048]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   30.551152]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   30.728216]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   30.728230]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22c6.
+[   30.728236]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22c6/0x4571, rescaled to 0x258e/0x4b00.
+[   30.728241]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000258e to the smoother version.
+[   30.728245]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x258e.
+[   30.728253]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   30.728281]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   30.776163]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   30.776171]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22a6.
+[   30.776176]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22a6/0x4571, rescaled to 0x256c/0x4b00.
+[   30.776182]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000256c to the smoother version.
+[   30.776186]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x256c.
+[   30.776193]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   30.776223]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x0000258e; Target = 0x0000256c; Distance = 0034; Steps = 45.
+[   30.840949]: Sandbox apply: aned[438] <bytes>Sandbox apply: appleeventsd[439] <bytes>WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request completed in 316925125 nanoseconds.
+[   34.605280]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   34.605286]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   34.605294]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   34.605298]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   34.605302]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   34.605307]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   34.605319]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   34.605322]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   34.605326]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   34.605330]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   34.605347]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   34.605367]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x0000256c; Target = 0x00002564; Distance = 0008; Steps = 45.
+[   34.605376]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   34.605398]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   34.605402]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   34.605406]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   34.605410]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   34.605414]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   34.605418]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   34.605432]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   34.605435]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   34.605439]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   34.605443]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   34.605447]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   34.605451]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   34.605461]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   34.605465]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x22a6.
+[   34.605469]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x22a6/0x4571, rescaled to 0x256c/0x4b00.
+[   34.605473]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x0000256c to the smoother version.
+[   34.605476]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x256c.
+[   34.605481]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   34.613159]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   35.754270]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   35.754280]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   35.754284]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   35.754288]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   35.754301]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   35.754307]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   35.754388]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x0000256c; Target = 0x00002564; Distance = 0008; Steps = 45.
+[   35.776755]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   35.776767]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   35.776772]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   35.776776]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   35.776780]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   35.776785]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   35.782807]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x0000256c; Target = 0x00002564; Distance = 0008; Steps = 45.
+[   35.803028]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   35.803040]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   35.803045]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   35.803049]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   35.803053]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   35.803058]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   35.804268]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] Processing the request: Current = 0x0000256c; Target = 0x00002564; Distance = 0008; Steps = 45.
+[   36.129726]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request completed in 325453211 nanoseconds.
+[   36.602540]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   36.602553]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   36.602560]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   36.602567]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   36.602572]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   36.602582]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   36.602670]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   36.652604]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   36.652616]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   36.652621]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   36.652626]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   36.652638]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   36.652645]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   36.652726]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   36.669343]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   36.669356]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   36.669364]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   36.669371]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   36.669377]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   36.669388]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   36.669470]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   36.685040]: fq_getq_flow: high delay idx: 7, 27449042, flow: 0x986191dd, iface: en0WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   36.702556]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   36.702563]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   36.702570]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   36.702575]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   36.702585]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   36.702659]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   37.498009]:   IOTimeSyncTimeSyncTimePort(0xb8098a5441030008): Other 0xe0034100WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   37.503318]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   37.503332]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   37.503343]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   37.503352]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   37.503398]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   37.503478]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   37.675876]: Sandbox apply: iconservicesagent[463] <bytes>WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   38.502801]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   38.502814]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   38.502845]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   38.502855]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   38.502871]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   38.502916]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   41.783942]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   41.783961]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   41.783972]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   41.783982]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   41.783991]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   41.784006]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   41.784035]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   43.000126]: Sandbox apply: rapportd[481] <bytes>Sandbox apply: usernoted[489] <bytes>Sandbox apply: tccd[491] <bytes>Sandbox apply: secd[493] <bytes>Sandbox: secd(493) deny(1) user-preference-write secdSandbox apply: donotdisturbd[494] <bytes>1 duplicate report for Sandbox: secd(493) deny(1) user-preference-write secdSandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.tccd.system1 duplicate report for Sandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.tccd.systemSandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbSandbox apply: trustd[498] <bytes>1 duplicate report for Sandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: secd(493) deny(1) user-preference-write secdSandbox apply: identityservicesd[495] <bytes>Sandbox apply: TrustedPeersHelper[497] <bytes>Sandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: TrustedPeersHelper(497) deny(1) user-preference-write com.apple.TrustedPeersHelper1 duplicate report for Sandbox: TrustedPeersHelper(497) deny(1) user-preference-write com.apple.TrustedPeersHelperSandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydb4 duplicate reports for Sandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydbWhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   43.383363]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   43.383370]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   43.383375]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   43.383381]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   43.383389]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   43.383415]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   43.406825]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   43.406842]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   43.406851]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   43.406859]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   43.406866]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   43.406885]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   43.406931]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   43.767945]: 4 duplicate reports for Sandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: appleeventsd(439) deny(1) mach-lookup com.apple.CoreServices.coreservicesdSandbox: appleeventsd(439) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationd4 duplicate reports for Sandbox: appleeventsd(439) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: donotdisturbd(494) deny(1) mach-lookup com.apple.lsd.modifydbifnet_ioctl_event_callback:7489 llw0 ifnet_ioctl returned 102 for ioctl 2149607730Sandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydbSandbox apply: AppSSOAgent[508] <bytes>Sandbox apply: distnoted[507] <bytes>Sandbox apply: pboard[512] <bytes>Sandbox apply: nsurlsessiond[510] <bytes>Sandbox apply: ctkd[513] <bytes>Sandbox apply: NotificationCenter[500] <bytes>Sandbox apply: routined[509] <bytes>Sandbox apply: pkd[514] <bytes>Sandbox apply: BiomeAgent[517] <bytes>1 duplicate report for Sandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: ctkd(513) deny(1) mach-lookup com.apple.CoreServices.coreservicesdSandbox: ctkd(513) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox apply: syncdefaultsd[518] <bytes>4 duplicate reports for Sandbox: ctkd(513) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: identityservicesd(495) deny(1) mach-lookup com.apple.lsd.modifydbWhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   44.183186]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   44.183200]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   44.183206]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   44.183211]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   44.183222]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   44.183243]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.
+[   45.187408]: WhateverGreen      igfx: @ (DBG) RWS: Found a replacer injector triggered by the register value 0xc8258.
+[   45.187419]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x229f.
+[   45.187431]: WhateverGreen      igfx: @ (DBG) BLR: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Write PWM_DUTY1 0x229f/0x4571, rescaled to 0x2564/0x4b00.
+[   45.187437]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] Will pass the rescaled value 0x00002564 to the smoother version.
+[   45.187442]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: Called with register 0xc8258 and value 0x2564.
+[   45.187451]: WhateverGreen      igfx: @ (DBG) BLS: [CFL+] WriteRegister32<BXT_BLC_PWM_DUTY1>: The brightness request has been submitted.
+[   45.187475]: WhateverGreen      igfx: @ (DBG) BLS: [COMM] The request is already completed. Will wait for the next invocation.

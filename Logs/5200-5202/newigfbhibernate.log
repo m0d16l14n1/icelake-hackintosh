@@ -1,0 +1,1464 @@
+[   22.116357]: [IGFB][INFO ][DISPLAY   ] ProAudio - Starting FB driver
+[   22.116987]: [IGFB][LOG  ][POWER     ] Force disable DC9
+[   22.117004]: [IGFB][LOG  ][DISPLAY   ] VRRTimeStampConfig status - fUseVBL = 0, fLegacyVBLPath = 0, fNotifyCalculatedTimestamp = 1, fReturnFromGamma = 0
+[   22.117007]: [IGFB][LOG  ][DISPLAY   ] IsVRRSupported = 1
+[   22.117008]: [IGFB][LOG  ][DISPLAY   ] IsHDMI_2_1Supported = 0
+[   22.117009]: [IGFB][LOG  ][DISPLAY   ] IsHDMIVRRSupported = 0
+[   22.118397]: [IGFB][LOG  ][DISPLAY   ] CD clock reference frequency = 2
+[   22.119430]: [IGFB][LOG  ][DISPLAY   ] CD Clock PLL is locked
+[   22.120064]: [IGFB][ERROR][POWER_WELL] EFI should not enable PG4 power well - overriding
+[   22.120371]: [IGFB][LOG  ][DISPLAY   ] PathIndex = 0, pipe = A
+[   22.120373]: [IGFB][LOG  ][DISPLAY   ] PathIndex = 1, pipe = B
+[   22.120375]: [IGFB][LOG  ][DISPLAY   ] PathIndex = 2, pipe = C
+[   22.120430]: [IGFB][LOG  ][DISPLAY   ] Registering for addFrameBufferNotificationWithOptions :: GroupID = 16 Event = 801 fb is 0
+[   22.120460]: [IGFB][LOG  ][DISPLAY   ] Registering for addFrameBufferNotificationWithOptions :: GroupID = 16 Event = 801 fb is 1
+[   22.120509]: [IGFB][LOG  ][DISPLAY   ] Registering for addFrameBufferNotificationWithOptions :: GroupID = 16 Event = 801 fb is 2
+[   22.120757]: [IGFB][LOG  ][DISPLAY   ] FB0: Boot pipe found - DDI0, pipe A
+[   22.120855]: [IGFB][LOG  ][DISPLAY   ] Boot plane config: enable 1 pipe gamma enable 0 source pixel format 8 pipe csc 0 tiling 0
+[   22.120858]: [IGFB][LOG  ][DISPLAY   ] Boot plane size: 1919 x 1079
+[   22.120863]: [IGFB][LOG  ][DISPLAY   ] FB0: Commiting resource set
+[   22.120866]: [IGFB][LOG  ][DISPLAY   ] FB0: Commiting resource set, sleepState 2. 
+[   22.121866]: [IGFB][ERROR][DISPLAY   ] FB0: EFI using a different backlight frequency
+[   22.122183]: [IGFB][LOG  ][DISPLAY   ] Value read from Mailbox for MEM_SS_INFO = 0x320
+[   22.122186]: [IGFB][LOG  ][DISPLAY   ] RAM = 0x0
+[   22.122187]: [IGFB][LOG  ][DISPLAY   ] Populated Channels = 0x2
+[   22.122188]: [IGFB][LOG  ][DISPLAY   ] Number of GV points = 0x3
+[   22.122720]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 0 h24_maxplanes = 3
+[   22.122723]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(0) totalbw = 9450
+[   22.122724]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(0) totalbw = 9907
+[   22.122726]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(0) totalbw = 9700
+[   22.122745]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(0) totalbw = 0
+[   22.122747]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 1 h24_maxplanes = 1
+[   22.122748]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(1) totalbw = 14454
+[   22.122750]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(1) totalbw = 16164
+[   22.122752]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(1) totalbw = 15148
+[   22.122754]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(1) totalbw = 0
+[   22.122756]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 2 h24_maxplanes = 0
+[   22.122757]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(2) totalbw = 19656
+[   22.122759]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(2) totalbw = 22749
+[   22.122761]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(2) totalbw = 21064
+[   22.122763]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(2) totalbw = 0
+[   22.122765]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 3 h24_maxplanes = 134217727
+[   22.122766]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(3) totalbw = 23972
+[   22.122767]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(3) totalbw = 25000
+[   22.122768]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(3) totalbw = 25000
+[   22.122769]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(3) totalbw = 0
+[   22.122771]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 4 h24_maxplanes = 67108863
+[   22.122772]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(4) totalbw = 25000
+[   22.122773]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(4) totalbw = 25000
+[   22.122774]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(4) totalbw = 25000
+[   22.122775]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(4) totalbw = 0
+[   22.122776]: [IGFB][LOG  ][DISPLAY   ] At index (plane) 5 h24_maxplanes = 33554431
+[   22.122777]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 0 and for number of planes(5) totalbw = 25000
+[   22.122778]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 1 and for number of planes(5) totalbw = 25000
+[   22.122779]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 2 and for number of planes(5) totalbw = 25000
+[   22.122780]: [IGFB][LOG  ][DISPLAY   ] At Sagv point 3 and for number of planes(5) totalbw = 0
+[   22.132444]: [IGFB][INFO ][GTPM_SLEEP] initForPM - fGPUIsAwake init to 1
+[   22.133847]: [IGFB][LOG  ][POWER     ] External power connected
+[   22.134336]: [IGFB][LOG  ][VRR       ] FB1: IsVRRSupported = 1 IsASFUSupported = 0 IsPairingSupported = 0 IsRampSupported = 0 IsBurstModeSupported = 0 IsTimingStampSupported = 1
+[   22.134379]: [IGFB][LOG  ][POWER     ] External power connected
+[   22.134981]: [IGFB][LOG  ][VRR       ] FB2: IsVRRSupported = 1 IsASFUSupported = 0 IsPairingSupported = 0 IsRampSupported = 0 IsBurstModeSupported = 0 IsTimingStampSupported = 1
+[   22.135029]: [IGFB][LOG  ][POWER     ] External power connected
+[   22.135091]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   22.135094]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   22.296471]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   22.309619]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   22.309631]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   22.309644]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   22.309646]: [IGFB][LOG  ][AGDC      ] Get port caps
+[   22.309648]: [IGFB][LOG  ][DISPLAY   ] Getting port caps for port -1
+[   22.309650]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   22.309665]: [IGFB][LOG  ][AGDC      ] Register AGDC callback
+[   22.309669]: [IGFB][LOG  ][AGDC      ] Enable controller
+[   22.310537]: [IGFB][LOG  ][PANEL     ] [key:0x002/on:1] fPSREnablekeys: 0x00000a5d -> 0x00000a5f (fullset:0x00001fff)
+[   22.634301]: [IGFB][INFO ][GTPM_CONTR] accelWillLoadGuC: initializing...
+[   22.668286]: [IGFB][INFO ][GTPM_CONTR] accelDidLoadGuC
+[   24.441862]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 24441862
+[   24.441866]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   24.442904]: fq_getq_flow: high delay idx: 1, 2730481499, flow: 0x0, iface: awdl0[IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   24.443380]: [IGFB][LOG  ][DISPLAY   ] ProAudio register PMRoot callback
+[   24.457349]: [IGFB][LOG  ][DISPLAY   ] FB0: ConnectionProbe - Setting Tiling mode, fOnline = 1, fOnlineStatusRequest = 1
+[   24.457360]: [IGFB][LOG  ][DISPLAY   ] FB0: Online info for DDI = 0, PortType = 0
+[   24.461562]: [IGFB][LOG  ][DPCD      ] DPCD_REV: 1.1
+[   24.462037]: [IGFB][LOG  ][DPCD      ] MAX_LINK_RATE: 0xA
+[   24.462039]: [IGFB][LOG  ][DPCD      ] MAX_LANE_COUNT: 2
+[   24.462040]: [IGFB][LOG  ][DPCD      ] TP3 Supported: 0
+[   24.462040]: [IGFB][LOG  ][DPCD      ] TP4 Supported: 0
+[   24.462041]: [IGFB][LOG  ][DPCD      ] Enhanced Framing: 1
+[   24.462042]: [IGFB][LOG  ][DPCD      ] Does NOT require AUX CH handshake?: 1
+[   24.462043]: [IGFB][LOG  ][DPCD      ] Number of Receive Ports: 1
+[   24.462044]: [IGFB][LOG  ][DPCD      ] Has downstream Port(s): 0
+[   24.462048]: [IGFB][LOG  ][DPCD      ] Downstream detailed capability available: 0
+[   24.462050]: [IGFB][LOG  ][DPCD      ] Has Main Link channel ANSI coding: 1
+[   24.462051]: [IGFB][LOG  ][DPCD      ] Number of downstream ports: 0
+[   24.462052]: [IGFB][LOG  ][DPCD      ] OUI Supported?: 0
+[   24.462053]: [IGFB][LOG  ][DPCD      ] DDI=0 MSATimingParamsIgnoreSupport = 0
+[   24.462424]: [IGFB][LOG  ][DPCD      ] MST Capable: 0
+[   24.462926]: [IGFB][LOG  ][DPCD      ] Sink Count 1
+[   24.463206]: [IGFB][LOG  ][DPCD      ] eDP Configuration 3
+[   24.463209]: [IGFB][LOG  ][DPCD      ] Link Training Interval 0
+[   24.463211]: [IGFB][LOG  ][DISPLAY   ] FB0: fIsHDMI = 0, fEnableAudio = 0, newOnline = 1, fOnline = 1, fMaxPixelClock = 720000000
+[   24.463214]: [IGFB][LOG  ][DISPLAY   ] FB0: newOnline: 1, fOnline: 1
+[   24.463217]: [IGFB][LOG  ][DISPLAY   ] FB0: edid != fEDID
+[   24.463417]: [IGFB][LOG  ][PANEL     ] [key:0x080/on:1] fPSREnablekeys: 0x00000a5f -> 0x00000adf (fullset:0x00001fff)
+[   24.463422]: [IGFB][LOG  ][PANEL     ] [key:0x400/on:1] fPSREnablekeys: 0x00000adf -> 0x00000edf (fullset:0x00001fff)
+[   24.465380]: GTK-RSC: db 18 00 00 00 00 GTK: 4a 59 3d c9 dc be 98 80 78 ce 6c 51 8c 87 58 e4 [IGFB][ERROR][PANEL     ] TCON: Aux not ready at HW
+[   24.465544]: [IGFB][ERROR][PANEL     ] TCON: BAN_DPCD_0x0_EXPECTED failed, got 41820a11
+[   24.467479]: [IGFB][INFO ][VRR       ] Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOG Handler!!
+[   24.473619]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 24473619
+[   24.473626]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 1
+[   24.473629]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 1. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   24.473920]: [IGFB][INFO ][VRR       ] Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOG Handler!!
+[   24.474427]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 24474426
+[   24.474430]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 1
+[   24.474432]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   24.474608]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 24474608
+[   24.474613]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 2
+[   24.474616]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 1. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   24.474683]: [IGFB][LOG  ][AGDC      ] Get callback caps
+[   24.474727]: [IGFB][LOG  ][AGDC      ] Get link config
+[   24.474729]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   24.474731]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   24.474736]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00002210, data size = 1, ddi = 0, port index = 0
+[   24.475001]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000000, data size = 1, ddi = 0, port index = 0
+[   24.475267]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000100, data size = 2, ddi = 0, port index = 0
+[   24.475531]: [IGFB][LOG  ][AGDC      ] Test resource set config
+[   24.475533]: [IGFB][LOG  ][DISPLAY   ] FB0: Testing resource set config
+[   24.475535]: [IGFB][LOG  ][DISPLAY   ] FB0: set[0] is single-link
+[   24.475537]: [IGFB][LOG  ][AGDC      ] Commit resource set config
+[   24.475539]: [IGFB][LOG  ][DISPLAY   ] FB0: Commiting resource set
+[   24.475542]: [IGFB][LOG  ][DISPLAY   ] FB0: Commiting resource set, sleepState 2. 
+[   24.475545]: [IGFB][LOG  ][AGDC      ] Get link config
+[   24.475552]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   24.475555]: [IGFB][LOG  ][AGDC      ] Get link config
+[   24.475556]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   24.475593]: [IGFB][INFO ][VRR       ] Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOG Handler!!
+[   24.475679]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 24475679
+[   24.475682]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 2
+[   24.475684]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   24.478521]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   24.478542]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0xfffffffb fCurrentDepth = 0, fBootDisplay = 1.
+[   24.478554]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0xfffffffb and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   24.508970]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   24.530021]: newUserClient: Invalid userClient Type request: 0[IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   24.554428]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 24554428
+[   24.554437]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   24.555715]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.769429]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:205
+[   28.777339]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0xfffffffb fCurrentDepth = 0, fBootDisplay = 1.
+[   28.777346]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0xfffffffb and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.779107]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0 Depth:1 Active:1920x1080 Scaled:0x0 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779130]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779132]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0 Depth:1 Active:1920x1080 Scaled:0x0 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779135]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779366]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3360x1890 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779382]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779383]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3360x1890 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779386]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779395]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3200x1800 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779427]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779428]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3200x1800 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779430]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779439]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2880x1620 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779453]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779454]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2880x1620 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779457]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779465]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779479]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779480]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779482]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779489]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779503]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779504]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779507]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779513]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779527]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779528]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779531]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779536]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2048x1152 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779550]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779552]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2048x1152 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779554]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779565]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779579]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779580]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779582]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779590]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779603]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779604]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779607]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779613]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779626]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779627]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779630]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779635]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779649]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779651]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779653]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779662]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779676]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779677]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779680]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779686]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779699]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779700]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779702]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779709]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779723]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779724]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779727]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779732]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x810 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779746]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779747]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x810 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779749]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779757]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779770]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779771]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779775]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779784]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779797]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779798]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779801]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779807]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779821]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779822]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779824]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779830]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1152x648 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779846]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779847]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1152x648 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779850]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779863]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779876]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779877]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779880]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779892]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3360x1890 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779906]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779908]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3360x1890 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779910]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779918]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3200x1800 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779931]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779933]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:3200x1800 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779937]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779945]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2880x1620 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779958]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779959]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2880x1620 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779962]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779968]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.779981]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.779984]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.779987]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.779994]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780008]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780009]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780012]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780018]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780033]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780034]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780036]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780042]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2048x1152 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780056]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780057]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2048x1152 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780059]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780065]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780079]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780081]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780083]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780089]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780102]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780103]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780106]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780111]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780125]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780126]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780128]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780166]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780180]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780182]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780184]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780195]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780209]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780210]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x944 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780213]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780219]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780233]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780234]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780237]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780244]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780260]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780261]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780264]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780272]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x810 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780286]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780288]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x810 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780290]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780298]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780312]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780314]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780316]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780322]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780338]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780339]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780342]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780350]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780365]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780366]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780368]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780375]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1152x648 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780391]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780393]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1152x648 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780395]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780404]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780418]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780419]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780425]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780434]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:640x480 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780449]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780450]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:640x480 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780452]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780460]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:800x600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780474]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780476]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:800x600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780478]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780485]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x768 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780500]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780501]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x768 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780503]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780511]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780525]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780526]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1024x576 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780528]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780535]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780551]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780553]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780555]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780564]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x960 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780586]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780588]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x960 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780591]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780601]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780615]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780616]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1280x720 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780619]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780625]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1344x1008 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780639]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780640]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1344x1008 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780643]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780651]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1344x756 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780667]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780669]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1344x756 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780671]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780681]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780699]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780700]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1440x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780704]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780716]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x1050 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780730]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780731]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1680x1050 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780734]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780744]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780758]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780760]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1600x900 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780762]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780776]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780791]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780792]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1080 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780795]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780801]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780815]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780816]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:1920x1200 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780819]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780825]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780845]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780846]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1440 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780849]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.780855]: [IGFB][LOG  ][VDT       ] FB0: Requesting VDT: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0 Requested pixel encoding 1 Colorimetry 1 dynamic range 1
+[   28.780872]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Detailed timing validated by AGDC (response = 0x0)
+[   28.780873]: [IGFB][LOG  ][VDT       ] FB0: Online:1 Mode:0x80001000 Depth:1 Active:1920x1080 Scaled:2560x1600 PixelClock:152600000 ScalerFlags:0 SignalConfig:0: Requested pixel encoding 1 dynamic range 1
+[   28.780876]: [IGFB][LOG  ][VDT       ] FB0: fEnablePlaneRotation = 1, fittable = 1
+[   28.781351]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0xfffffffb fCurrentDepth = 0, fBootDisplay = 1.
+[   28.781846]: [IGFB][LOG  ][DISPLAY   ] Current hardware mode is set for active h=1920, v=1080 scaled h=0, v=0 pixelClock 152600000 scalerFlags 0signalConfig 0
+[   28.781849]: [IGFB][LOG  ][DISPLAY   ] Found matching mode 0x80001000
+[   28.781850]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.787818]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.787825]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.788185]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.788191]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.788205]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28788205
+[   28.788208]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   28.789320]: [IGFB][LOG  ][DISPLAY   ]  Transaction  completed in 1 milliseconds
+[   28.789325]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.795429]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.796866]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001000, depth=0, fOnline=1
+[   28.796872]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=0, sh=0, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   28.796875]: [IGFB][LOG  ][DISPLAY   ] FB0: Set display mode for first boot
+[   28.796920]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   28.796921]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   28.796922]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0x780
+[   28.796929]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x438
+[   28.796931]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   28.796932]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   28.796933]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   28.796934]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   28.796939]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   28.796941]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   28.796945]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   28.796951]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   28.796952]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   28.796954]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   28.796956]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   28.796957]: [IGFB][LOG  ][DISPLAY   ] timing hs=0, vs=0
+[   28.796958]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   28.796959]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   28.796960]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   28.796961]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   28.796962]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   28.796963]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   28.796964]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   28.796965]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   28.796965]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   28.796966]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   28.796967]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   28.796969]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   28.796970]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   28.796971]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0x77f0437
+[   28.796972]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   28.796973]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   28.796975]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   28.796976]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   28.796977]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   28.796981]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   28.796984]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   28.796985]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   28.796986]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   28.796990]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   28.796991]: [IGFB][LOG  ][MODESET   ] PLANE_STRIDE 0x78->0x3c
+[   28.796992]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating scaler
+[   28.797004]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   28.797009]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 0 x 0 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   28.797065]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.797068]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.798904]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.798906]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.798911]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.798914]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.798916]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.800741]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.800744]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.820677]: 4 duplicate reports for Sandbox: accessoryupdaterd(96) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/com.apple.uarp.database.plist class:com.apple.cfprefsd.read-writeSandbox: mDNSResponder(257) deny(1) file-read-data /private/var/db/nsurlstoraged/dafsaData.bin[IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.841892]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.864443]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28864442
+[   28.864448]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   28.864450]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.864489]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.864614]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.864617]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.872330]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.872333]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.872492]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.872494]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.873748]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.873753]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.874590]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.874593]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.875139]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.875142]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.881063]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28881062
+[   28.881065]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 0
+[   28.881066]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.881067]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.881076]: [IGFB][LOG  ][DISPLAY   ] FB0: kIOWindowServerActiveAttribute = 0x0
+[   28.881124]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28881124
+[   28.881126]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 0
+[   28.881126]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.881128]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.884157]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.884832]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.884868]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   28.885529]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.886425]: [IGFB][LOG  ][AGDC      ] Get link config
+[   28.886428]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   28.886431]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   28.886435]: [IGFB][LOG  ][AGDC      ] Get port status
+[   28.886437]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   28.892143]: [IGFB][LOG  ][AGDC      ] Get link config
+[   28.892147]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   28.892150]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   28.892189]: [IGFB][LOG  ][AGDC      ] Get port status
+[   28.892190]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   28.893841]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.893844]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.894229]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.894232]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.894311]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.894313]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.894321]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28894321
+[   28.894322]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   28.895721]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.897618]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001000, depth=0, fOnline=1
+[   28.897628]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=0, sh=0, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   28.897658]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   28.897659]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   28.897660]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0x780
+[   28.897662]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x438
+[   28.897662]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   28.897663]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   28.897664]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   28.897665]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   28.897669]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   28.897672]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   28.897675]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   28.897681]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   28.897682]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   28.897683]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   28.897685]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   28.897686]: [IGFB][LOG  ][DISPLAY   ] timing hs=0, vs=0
+[   28.897687]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   28.897688]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   28.897688]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   28.897689]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   28.897690]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   28.897691]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   28.897692]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   28.897692]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   28.897693]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   28.897694]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   28.897695]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   28.897696]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   28.897697]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   28.897707]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0x77f0437
+[   28.897709]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   28.897710]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   28.897711]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   28.897712]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   28.897714]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   28.897716]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   28.897727]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   28.897728]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   28.897729]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   28.897777]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   28.897779]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating plane
+[   28.897786]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   28.897790]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 0 x 0 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   28.897823]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.897825]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.900017]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.900018]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.900020]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.900022]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.900024]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.900037]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.900038]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.920617]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.939591]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.959111]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28959111
+[   28.959114]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   28.959115]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.959117]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.961816]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 28961815
+[   28.961817]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 1
+[   28.961818]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.961824]: [IGFB][LOG  ][DISPLAY   ] FB1: kIOWindowServerActiveAttribute = 0x0
+[   28.961835]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 28961835
+[   28.961836]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 1
+[   28.961837]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   28.962631]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.963201]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.963252]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   28.964061]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   28.964434]: [IGFB][LOG  ][AGDC      ] Get link config
+[   28.964436]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   28.964850]: [IGFB][LOG  ][AGDC      ] Get link config
+[   28.964851]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   28.965892]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.965896]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.966407]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.966410]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.966954]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.966956]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.966995]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.966997]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.967003]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 28967003
+[   28.967004]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   28.968423]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   28.970170]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001000, depth=0, fOnline=1
+[   28.970181]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=0, sh=0, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   28.970213]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   28.970214]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   28.970215]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0x780
+[   28.970216]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x438
+[   28.970217]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   28.970218]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   28.970219]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   28.970220]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   28.970224]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   28.970227]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   28.970230]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   28.970236]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   28.970237]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   28.970239]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   28.970240]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   28.970241]: [IGFB][LOG  ][DISPLAY   ] timing hs=0, vs=0
+[   28.970242]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   28.970243]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   28.970244]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   28.970245]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   28.970246]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   28.970247]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   28.970248]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   28.970273]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   28.970275]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   28.970276]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   28.970277]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   28.970278]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   28.970279]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   28.970280]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0x77f0437
+[   28.970281]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   28.970282]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   28.970283]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   28.970284]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   28.970286]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   28.970288]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   28.970293]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   28.970294]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   28.970295]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   28.970330]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   28.970332]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating plane
+[   28.970340]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   28.970345]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 0 x 0 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   28.970403]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.970405]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.972320]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   28.972321]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.972323]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.972325]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.972326]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.972377]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   28.972378]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   28.991254]: fq_getq_flow: high delay idx: 7, 174746392, flow: 0xaf75aa5d, iface: en0fq_getq_flow: high delay idx: 7, 174537589, flow: 0x93e99dc1, iface: en0fq_getq_flow: high delay idx: 7, 173791787, flow: 0x8e3ace21, iface: en0fq_getq_flow: high delay idx: 7, 173598689, flow: 0xb456a982, iface: en0fq_getq_flow: high delay idx: 7, 171645937, flow: 0xbf56b3b5, iface: en0fq_getq_flow: high delay idx: 7, 165533973, flow: 0x85a0c73d, iface: en0fq_getq_flow: high delay idx: 7, 165452819, flow: 0x883612fd, iface: en0[IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.018030]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.041482]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29041482
+[   29.041485]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   29.041487]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.041489]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.044888]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29044888
+[   29.044890]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 2
+[   29.044892]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.044899]: [IGFB][LOG  ][DISPLAY   ] FB2: kIOWindowServerActiveAttribute = 0x0
+[   29.044908]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29044908
+[   29.044909]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 2
+[   29.044910]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.046098]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   29.046505]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   29.046539]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   29.047663]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   29.047952]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.047954]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.048431]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.048433]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.115580]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29115580
+[   29.115587]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 0
+[   29.115588]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 90. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.115590]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.115615]: [IGFB][LOG  ][DISPLAY   ] FB0: kIOWindowServerActiveAttribute = 0x80000013
+[   29.115651]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29115651
+[   29.115653]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 0
+[   29.115654]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.115655]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.115672]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 29115672
+[   29.115673]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 1
+[   29.115674]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 90. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.115688]: [IGFB][LOG  ][DISPLAY   ] FB1: kIOWindowServerActiveAttribute = 0x80000013
+[   29.115690]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 29115690
+[   29.115691]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 1
+[   29.115692]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.115744]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29115744
+[   29.115745]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 2
+[   29.115746]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 90. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.115757]: [IGFB][LOG  ][DISPLAY   ] FB2: kIOWindowServerActiveAttribute = 0x80000013
+[   29.115759]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29115759
+[   29.115760]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 2
+[   29.115761]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.116232]: [IGFB][LOG  ][AGDC      ] Vendor info
+[   29.150759]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.150766]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.151175]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.151178]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.152167]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.152170]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.152198]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.152199]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.153103]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.153106]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.153821]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.153823]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.154320]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.154322]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.154689]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.154692]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.155947]: [IGFB][LOG  ][AGDC      ] Get callback caps
+[   29.156619]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.156623]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.362466]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.362472]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.362517]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29362517
+[   29.362519]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   29.363829]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.365334]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001000, depth=0, fOnline=1
+[   29.365340]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=0, sh=0, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   29.365369]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   29.365370]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   29.365371]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0x780
+[   29.365372]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x438
+[   29.365373]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   29.365374]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   29.365375]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   29.365376]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   29.379373]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   29.379376]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   29.379380]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   29.379387]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   29.379388]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   29.379390]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   29.379392]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   29.379393]: [IGFB][LOG  ][DISPLAY   ] timing hs=0, vs=0
+[   29.379394]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   29.379394]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   29.379395]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   29.379396]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   29.379402]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   29.379404]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   29.379404]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   29.379405]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   29.379406]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   29.379407]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   29.379407]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   29.379409]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   29.379410]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   29.379410]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0x77f0437
+[   29.379411]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   29.379412]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   29.379413]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   29.379414]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   29.379416]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   29.379418]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   29.379421]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   29.379422]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   29.379422]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   29.379425]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   29.379426]: [IGFB][LOG  ][MODESET   ] PLANE_SURF 0->0x41000000
+[   29.379464]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating scaler
+[   29.379474]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   29.379478]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 0 x 0 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   29.379513]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.379515]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.381489]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.381491]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.381492]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.381494]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.381495]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.381499]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.381500]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.400688]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.419661]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.439892]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29439892
+[   29.439894]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   29.439895]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.439897]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.467898]: [IGFB][LOG  ][PANEL     ] [key:0x100/on:1] fPSREnablekeys: 0x00000edf -> 0x00000fdf (fullset:0x00001fff)
+[   29.521110]: 1 duplicate report for Sandbox: mediaremoted(93) allow iokit-open-user-client IOAudioEngineUserClientSandbox: mediaremoted(93) allow iokit-get-properties class:AppleHDAStream property:IOClassNameOverrideSandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioToggleControl property:IOAudioControlSubTypeSandbox: mediaremoted(93) allow iokit-get-properties class:AppleHDAStream property:IOClassNameOverrideSandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioSelectorControl property:IOAudioControlSubTypeSandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioLevelControl property:IOAudioControlSubType3 duplicate reports for Sandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioLevelControl property:IOAudioControlSubTypeSandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioToggleControl property:IOAudioControlSubType5 duplicate reports for Sandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioToggleControl property:IOAudioControlSubTypeSandbox: mediaremoted(93) allow iokit-get-properties class:AudioAUUCDriver property:IOClassNameOverrideSandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioEngineUserClient property:IOClassNameOverride[IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.524355]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.524486]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0, fBootDisplay = 1.
+[   29.524489]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0, bPortraitMode 0, bAnotherRun 0.
+[   29.524530]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29524530
+[   29.524533]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   29.525796]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.527417]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001000, depth=1, fOnline=1
+[   29.527425]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=0, sh=0, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   29.527463]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   29.527464]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   29.527465]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0x780
+[   29.527467]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x438
+[   29.527468]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   29.527469]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   29.527470]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   29.527471]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   29.527475]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   29.527478]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   29.527482]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   29.527488]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   29.527489]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   29.527492]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   29.527493]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   29.527495]: [IGFB][LOG  ][DISPLAY   ] timing hs=0, vs=0
+[   29.527496]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   29.527497]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   29.527498]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   29.527499]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   29.527500]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   29.527502]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   29.527503]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   29.527504]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   29.527505]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   29.527506]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   29.527507]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   29.527509]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   29.527510]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   29.527511]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0x77f0437
+[   29.527513]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   29.527514]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   29.527515]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   29.527516]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   29.527523]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   29.527527]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   29.527531]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   29.527532]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   29.527533]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   29.527536]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   29.527538]: [IGFB][LOG  ][MODESET   ] PLANE_CTL 0x84001000->0x82001000
+[   29.527539]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating scaler
+[   29.527545]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   29.527555]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 0 x 0 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   29.527587]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.527589]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.529248]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.529250]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.529252]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.529255]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.529256]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.529262]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.529264]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.550643]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.572018]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   29.607961]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29607961
+[   29.607982]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   29.607983]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.607986]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.608122]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.608126]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.608300]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.608304]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   29.608307]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   29.608314]: [IGFB][LOG  ][AGDC      ] Get port status
+[   29.608316]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   29.609070]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.609073]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   29.609125]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.609127]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.611036]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.611040]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.615910]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.615916]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.616314]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.616317]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.616778]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.616781]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   29.616784]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   29.616788]: [IGFB][LOG  ][AGDC      ] Get port status
+[   29.616790]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   29.617687]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.617691]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   29.617781]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.617784]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.618532]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.618540]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.618680]: connectx() - failed necp_set_socket_domain_attributes[IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   29.619180]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   29.619687]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.619690]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   29.619692]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   29.619697]: [IGFB][LOG  ][AGDC      ] Get port status
+[   29.619704]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   29.620125]: connectx() - failed necp_set_socket_domain_attributes[IGFB][LOG  ][AGDC      ] Get link config
+[   29.620424]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   29.620489]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.620491]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.620916]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.620919]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   29.620921]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   29.620924]: [IGFB][LOG  ][AGDC      ] Get port status
+[   29.620925]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   29.621562]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.621564]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   29.621611]: [IGFB][LOG  ][AGDC      ] Get link config
+[   29.621612]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   29.827874]: [IGFB][LOG  ][DISPLAY   ] FB0: LineTime in Nano seconds = 14613
+[   29.827897]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[   29.828877]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29828877
+[   29.828879]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 0
+[   29.828880]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.828883]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.828900]: [IGFB][LOG  ][DISPLAY   ] FB0: kIOWindowServerActiveAttribute = 0x11
+[   29.828903]: [IGFB][LOG  ][DISPLAY   ] Restoring transaction
+[   29.828908]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 46900000 with 5 options at stride 7680
+[   29.828928]: [IGFB][ERROR][DISPLAY   ] Internal cached DBuf values are not set. Failed to distribute DBufs
+[   29.838977]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 29838977
+[   29.838979]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 0
+[   29.838980]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.838982]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   29.839019]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 29839019
+[   29.839020]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 1
+[   29.839022]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.839028]: [IGFB][LOG  ][DISPLAY   ] FB1: kIOWindowServerActiveAttribute = 0x11
+[   29.839036]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 29839036
+[   29.839037]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 1
+[   29.839038]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.839056]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29839056
+[   29.839057]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 2
+[   29.839058]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.839065]: [IGFB][LOG  ][DISPLAY   ] FB2: kIOWindowServerActiveAttribute = 0x11
+[   29.839073]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 29839073
+[   29.839074]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 2
+[   29.839076]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   29.839877]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47100000 with 800 options at stride 7680
+[   29.839894]: [IGFB][ERROR][DISPLAY   ] Internal cached DBuf values are not set. Failed to distribute DBufs
+[   29.840933]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[   29.866380]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47900000 with 801 options at stride 7680
+[   29.866398]: [IGFB][ERROR][DISPLAY   ] Internal cached DBuf values are not set. Failed to distribute DBufs
+[   29.880551]: Sandbox: corebrightnessd(150) deny(1) file-read-data /Library/Displays/Contents/Resources/Overrides/DisplayVendorID-9e5/DisplayProductID-747Sandbox: corebrightnessd(150) deny(1) file-read-data /Library/Displays/Contents/Resources/Overrides/Icons.plist[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47100000 with 1 options at stride 7680
+[   29.893691]: [IGFB][ERROR][DISPLAY   ] Internal cached DBuf values are not set. Failed to distribute DBufs
+[   29.964245]: Sandbox apply: appleeventsd[442] <bytes>Sandbox apply: aned[443] <bytes>connectx() - failed necp_set_socket_domain_attributes[IGFB][LOG  ][AGDC      ] Vendor info
+[   30.038152]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   30.039255]: [IGFB][LOG  ][AGDC      ] Get link config
+[   30.039259]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   30.039262]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   30.039370]: [IGFB][LOG  ][AGDC      ] Get link config
+[   30.039372]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   30.039378]: [IGFB][LOG  ][AGDC      ] Get link config
+[   30.039379]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   30.040632]: [IGFB][LOG  ][AGDC      ] Port enable
+[   30.040635]: [IGFB][LOG  ][DISPLAY   ] Port Enable for port index 0 with state = 1
+[   30.040765]: [IGFB][LOG  ][AGDC      ] Get port caps
+[   30.040767]: [IGFB][LOG  ][DISPLAY   ] Getting port caps for port 0
+[   30.040774]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000000, data size = 6, ddi = 0, port index = 0
+[   30.041047]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x0000000e, data size = 1, ddi = 0, port index = 0
+[   30.041300]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000020, data size = 4, ddi = 0, port index = 0
+[   30.041539]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000060, data size = 16, ddi = 0, port index = 0
+[   30.041906]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000090, data size = 1, ddi = 0, port index = 0
+[   30.042152]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00002200, data size = 16, ddi = 0, port index = 0
+[   30.042439]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00002210, data size = 4, ddi = 0, port index = 0
+[   30.042651]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000400, data size = 12, ddi = 0, port index = 0
+[   30.043515]: [IGFB][LOG  ][AGDC      ] Get GPU caps
+[   30.043531]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000400, data size = 12, ddi = 0, port index = 0
+[   30.044395]: [IGFB][LOG  ][AGDC      ] Get link config
+[   30.044400]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   30.044403]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   30.044409]: [IGFB][LOG  ][AGDC      ] Get port caps
+[   30.044410]: [IGFB][LOG  ][DISPLAY   ] Getting port caps for port 0
+[   30.044416]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000000, data size = 6, ddi = 0, port index = 0
+[   30.044675]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x0000000e, data size = 1, ddi = 0, port index = 0
+[   30.044816]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000020, data size = 4, ddi = 0, port index = 0
+[   30.045058]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000060, data size = 16, ddi = 0, port index = 0
+[   30.045419]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000090, data size = 1, ddi = 0, port index = 0
+[   30.045678]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00002200, data size = 16, ddi = 0, port index = 0
+[   30.046054]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00002210, data size = 4, ddi = 0, port index = 0
+[   30.046301]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000400, data size = 12, ddi = 0, port index = 0
+[   30.046907]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000400, data size = 12, ddi = 0, port index = 0
+[   30.047227]: [IGFB][LOG  ][AGDC      ] Set FB status on next probe
+[   30.047819]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000100, data size = 2, ddi = 0, port index = 0
+[   30.048082]: [IGFB][LOG  ][DISPLAY   ] Getting stream aux access: RD address = 0x00000202, data size = 2, ddi = 0, port index = 0
+[   30.048750]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.048753]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 1, portType = 1, DDI = 2, port status = 0
+[   30.048821]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.048824]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 2, portType = 1, DDI = 3, port status = 0
+[   30.048922]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.048924]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 3, portType = 1, DDI = 4, port status = 0
+[   30.048979]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.048982]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 4, portType = 1, DDI = 5, port status = 0
+[   30.059556]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.059562]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 1, portType = 1, DDI = 2, port status = 0
+[   30.059641]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.059644]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 2, portType = 1, DDI = 3, port status = 0
+[   30.059693]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.059695]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 3, portType = 1, DDI = 4, port status = 0
+[   30.059740]: [IGFB][LOG  ][AGDC      ] Get port status
+[   30.059742]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 4, portType = 1, DDI = 5, port status = 0
+[   33.014784]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47100000 with 801 options at stride 7680
+[   33.024549]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47900000 with 1 options at stride 7680
+[   33.038566]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 1920 x 1080 -> 1920 x 1080 on 47900000 with 801 options at stride 7680
+[   33.278984]: Sandbox: systemstats(464) deny(1) mach-lookup com.apple.cmio.registerassistantservice[IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001000 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.390635]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001000 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.404264]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 33404264
+[   33.404271]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[   33.421597]: [IGFB][LOG  ][DISPLAY   ]  Transaction  completed in 14 milliseconds
+[   33.421606]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   33.421795]: [IGFB][LOG  ][DISPLAY   ] fOnline: 0x1, fTransactionState:0xfffffffe
+[   33.428249]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   33.467276]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001003, depth=1, fOnline=1
+[   33.467351]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=2880, sh=1620, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[   33.467516]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[   33.467520]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[   33.467524]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0xb40
+[   33.467527]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x654
+[   33.467531]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[   33.467534]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[   33.467537]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[   33.467540]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[   33.467549]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[   33.467557]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[   33.467564]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[   33.467578]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[   33.467581]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[   33.467586]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[   33.467591]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[   33.467594]: [IGFB][LOG  ][DISPLAY   ] timing hs=2880, vs=1620
+[   33.467597]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[   33.467600]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[   33.467603]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[   33.467606]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[   33.467609]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[   33.467612]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[   33.467615]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[   33.467618]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[   33.467621]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[   33.467623]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[   33.467626]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[   33.467630]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[   33.467634]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[   33.467636]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0xb3f0653
+[   33.467640]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[   33.467642]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[   33.467646]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[   33.467649]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[   33.467654]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[   33.467660]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[   33.467667]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[   33.467671]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[   33.467674]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[   33.467682]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[   33.467686]: [IGFB][LOG  ][MODESET   ] PLANE_SURF 0x47900000->0x41000000
+[   33.467689]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating scaler
+[   33.467719]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[   33.467730]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 2880 x 1620 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[   33.467813]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.467820]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.469334]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   33.469337]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.469341]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.469346]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.469350]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.469393]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.469396]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.492148]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   33.514408]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[   33.536146]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 33536146
+[   33.536149]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[   33.536151]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[   33.536154]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[   33.536356]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.536362]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.536474]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.536478]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   33.536482]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   33.536492]: [IGFB][LOG  ][AGDC      ] Get port status
+[   33.536494]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   33.537676]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.537682]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   33.537764]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.537767]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   33.538910]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.538915]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.539560]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.539564]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.540123]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.540126]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.541200]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.541206]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   33.541211]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   33.541219]: [IGFB][LOG  ][AGDC      ] Get port status
+[   33.541222]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   33.542028]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.542031]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   33.542121]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.542124]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   33.543423]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.543428]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.544006]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[   33.544010]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[   33.544414]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.544417]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   33.544419]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   33.544424]: [IGFB][LOG  ][AGDC      ] Get port status
+[   33.544425]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   33.545154]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.545157]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   33.545246]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.545249]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   33.545774]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.545777]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[   33.545779]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[   33.545783]: [IGFB][LOG  ][AGDC      ] Get port status
+[   33.545785]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[   33.546522]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.546524]: [IGFB][LOG  ][DISPLAY   ] AGDC FB1 fOnline = 0 bootdisplay = 0 
+[   33.546578]: [IGFB][LOG  ][AGDC      ] Get link config
+[   33.546579]: [IGFB][LOG  ][DISPLAY   ] AGDC FB2 fOnline = 0 bootdisplay = 0 
+[   33.629097]:   IOTimeSyncTimeSyncTimePort(0xb8098a5441030008): Other 0xe0034100ifnet_ioctl_event_callback:7489 awdl0 ifnet_ioctl returned 102 for ioctl 2149607730ifnet_ioctl_event_callback:7489 awdl0 ifnet_ioctl returned 102 for ioctl 2149607730[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   33.670742]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[   33.704800]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   33.744880]: Sandbox apply: symptomsd-diag[448] <bytes>[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 801 options at stride 11520
+[   34.037937]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   34.054555]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   34.107349]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 1 options at stride 11520
+[   34.121272]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   34.137835]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   34.154600]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 801 options at stride 11520
+[   34.171152]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   34.187887]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   34.337790]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   34.354495]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   34.371222]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   34.387822]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   34.970971]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 1 options at stride 11520
+[   34.987491]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   35.004313]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   35.020975]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 801 options at stride 11520
+[   35.037539]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   35.054314]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   35.204639]: Sandbox: systemstats(464) deny(1) mach-lookup com.apple.cmio.registerassistantservice.system-extensionsSandbox: symptomsd-diag(448) deny(1) mach-lookup com.apple.backupd.sandbox.xpc[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   35.244845]: Sandbox: symptomsd-diag(448) deny(1) mach-lookup com.apple.metadata.mds[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 801 options at stride 11520
+[   35.270702]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   35.304169]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 801 options at stride 11520
+[   35.537264]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   35.554080]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   35.570672]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 1 options at stride 11520
+[   35.587376]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   35.603899]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   35.620828]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   35.640851]:   IOTimeSyncTimeSyncTimePort(0xb8098a5441030008): Other 0xe0034100ifnet_ioctl_event_callback:7489 llw0 ifnet_ioctl returned 102 for ioctl 2149607730ifnet_ioctl_event_callback:7489 llw0 ifnet_ioctl returned 102 for ioctl 2149607730[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   36.415171]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   36.423179]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   37.419308]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   37.436637]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   45.450463]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[   45.461322]: Sandbox apply: routined[529] <bytes>[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 1 options at stride 11520
+[   46.240859]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   46.252937]: sandboxd rejected approval request from cfprefsd for kTCCServiceSystemPolicyAllFiles (/Users/b0ltun/Library/Group Containers/group.com.apple.secure-control-center-preferences): denied[IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 1 options at stride 11520
+[   49.137337]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 801 options at stride 11520
+[   49.168984]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[   51.833613]: Sandbox: avconferenced(599) deny(1) user-preference-read com.apple.AppleGVA[IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1200 > (vrrMax + Guardband) = 1191.. currentFramecount = 4632, currentScanline = 1080. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[   91.529856]: macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2macl_get_vnode: failed to resolve vnode: 2[IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1199 > (vrrMax + Guardband) = 1191.. currentFramecount = 7147, currentScanline = 1081. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  120.615193]: [IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1204 > (vrrMax + Guardband) = 1191.. currentFramecount = 8756, currentScanline = 1076. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  150.638593]: [IGFB][LOG  ][DISPLAY   ] ProAudioTest: proAudioWorkLoad notification timestamp = 150638578061, state = Enable wake
+[  151.046683]: [IGFB][LOG  ][DISPLAY   ] ProAudioTest: proAudioWorkLoad notification timestamp = 151046655270, state = Disable Wake
+[  218.005444]: [IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1198 > (vrrMax + Guardband) = 1191.. currentFramecount = 14603, currentScanline = 1082. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  545.360286]: [IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1203 > (vrrMax + Guardband) = 1191.. currentFramecount = 34252, currentScanline = 1077. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  693.118050]: Sandbox: analyticsd(160) deny(1) file-issue-extension target:/private/var/db/analyticsd/Library/Preferences/analyticsd.plist class:com.apple.cfprefsd.read-write[IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1194 > (vrrMax + Guardband) = 1191.. currentFramecount = 43334, currentScanline = 1086. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  735.092831]: [IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1204 > (vrrMax + Guardband) = 1191.. currentFramecount = 45641, currentScanline = 1076. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[  737.907216]:   IOTimeSyncTimeSyncTimePort(0xb8098a5441030008): Other 0xe0034100[IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1203 > (vrrMax + Guardband) = 1191.. currentFramecount = 45894, currentScanline = 1077. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[ 1058.769968]: Sandbox: analyticsd(160) deny(1) file-issue-extension target:/private/var/db/analyticsd/Library/Preferences/analyticsd.plist class:com.apple.cfprefsd.read-write[IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1194 > (vrrMax + Guardband) = 1191.. currentFramecount = 65291, currentScanline = 1086. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[ 1218.119474]: [IGFB][LOG  ][DISPLAY   ] ProAudioTest: proAudioWorkLoad notification timestamp = 1218119452018, state = Enable wake
+[ 1218.521891]: [IGFB][LOG  ][DISPLAY   ] ProAudioTest: proAudioWorkLoad notification timestamp = 1218521849774, state = Disable Wake
+[ 1256.445152]: [IGFB][ERROR][TRANSACTIO] FB0: VRR_ERR : remLinesForOnGlass = 1203 > (vrrMax + Guardband) = 1191.. currentFramecount = 76936, currentScanline = 1077. Forcing remLineForOnGlass to 1191 and remLinesForTC to 1140 to avoid hang.
+[ 1309.517924]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[ 1309.523780]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1309523780
+[ 1309.523793]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 0
+[ 1309.539991]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 1309.540079]: [IGFB][LOG  ][DISPLAY   ] FB0: kIOWindowServerActiveAttribute = 0x4
+[ 1309.540087]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1309540087
+[ 1309.540091]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 0
+[ 1309.540093]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 1309.540098]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 1309.540289]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 1309540289
+[ 1309.540298]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 1
+[ 1309.540301]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 90. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 1309.540338]: [IGFB][LOG  ][DISPLAY   ] FB1: kIOWindowServerActiveAttribute = 0x4
+[ 1309.540343]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 1309540343
+[ 1309.540347]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 1
+[ 1309.540349]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 1309.540422]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 1309540422
+[ 1309.540427]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillEnterDefer notification received on fb 2
+[ 1309.540429]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 90. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 1309.540457]: [IGFB][LOG  ][DISPLAY   ] FB2: kIOWindowServerActiveAttribute = 0x4
+[ 1309.540462]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 1309540461
+[ 1309.540465]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidEnterDefer notification received for fb 2
+[ 1309.540467]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 92. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 1309.645831]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 4 flipped from 2880 x 1620 -> 2880 x 1620 on 48300000 with 5 options at stride 11520
+[ 1309.645866]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[ 1310.751414]: [IGFB][INFO ][POWER     ] FB0: power state transition Wake --> Doze
+[ 1310.751906]: [IGFB][LOG  ][DISPLAY   ] FB0: Disabling Pipe A
+[ 1310.753170]: [IGFB][LOG  ][DISPLAY   ]  Transaction  completed in 1 milliseconds
+[ 1310.753177]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 1310.759681]: [IGFB][LOG  ][PANEL     ] [key:0x120/on:0] fPSREnablekeys: 0x00000fdf -> 0x00000edf (fullset:0x00001fff)
+[ 1310.790302]: [IGFB][LOG  ][DISPLAY   ] FB0: Disabling clocks
+[ 1310.790322]: [IGFB][LOG  ][DISPLAY   ] Disabling clocks on DDI = 0
+[ 1310.791794]: [IGFB][LOG  ][POWER     ] Powering OFF the internal panel
+[ 1310.853689]: 9 duplicate reports for Sandbox: mediaremoted(93) allow iokit-get-properties class:IOAudioEngineUserClient property:IOClassNameOverrideSandbox: contextstored(236) deny(1) mach-lookup com.apple.biome.compute.source.user[IGFB][LOG  ][POWER     ] Panel power OFF time was 362 ms
+[ 1311.154411]: [IGFB][INFO ][POWER     ] FB0: Power state transition completed
+[ 1311.836198]: [IGFB][LOG  ][POWER     ] External power disconnected
+[ 1311.836232]: [IGFB][LOG  ][POWER     ] External power disconnected
+[ 1311.836243]: [IGFB][LOG  ][POWER     ] External power disconnected
+[ 1342.318945]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:204
+[ 1342.320786]: [IGFB][INFO ][POWER     ] FB0: power state transition Doze --> Sleep
+[ 1342.322861]: [IGFB][INFO ][POWER     ] FB0: Power state transition completed
+[ 1342.326492]: [IGFB][INFO ][POWER     ] FB1: power state transition Wake --> Sleep
+[ 1342.328349]: [IGFB][INFO ][POWER     ] FB1: Power state transition completed
+[ 1342.329499]: [IGFB][INFO ][POWER     ] FB2: power state transition Wake --> Sleep
+[ 1342.837068]: [IGFB][INFO ][POWER     ] FB2: Power state transition completed
+[ 1843.470043]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:205
+[ 1843.478826]: newUserClient: ERROR: Invalid userClient type request: 0newUserClient: Invalid userClient Type request: 0newUserClient: Invalid userClient Type request: 0newUserClient: Invalid userClient Type request: 0newUserClient: Invalid userClient Type request: 0newUserClient: Invalid userClient Type request: 0[IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.571013]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.623182]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.675444]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.727609]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.778187]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.787943]: newUserClient: Invalid userClient Type request: 0[IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.882364]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.934466]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1843.986592]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.038696]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.090830]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.142943]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.195052]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.247165]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.299276]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.351385]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.401485]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.452881]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.504067]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.554971]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.605262]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.642174]: ifnet_ioctl_event_callback:7489 awdl0 ifnet_ioctl returned 102 for ioctl 2149607730ifnet_ioctl_event_callback:7489 awdl0 ifnet_ioctl returned 102 for ioctl 2149607729[IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.707952]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.758923]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.774992]: [IGFB][INFO ][POWER     ] FB0: power state transition Sleep --> Doze
+[ 1844.775569]: newUserClient: Invalid userClient Type request: 0[IGFB][LOG  ][DISPLAY   ] CD Clock PLL is locked
+[ 1844.815623]: 1 duplicate report for Sandbox: icdd(636) allow file-read-data /Library/Image Capture/DevicesSandbox: analyticsd(160) deny(1) file-issue-extension target:/private/var/db/analyticsd/Library/Preferences/analyticsd.plist class:com.apple.cfprefsd.read-write[IGFB][ERROR][DISPLAY   ] FB0: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.942881]: [IGFB][ERROR][DISPLAY   ] FB0: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.943159]: [IGFB][INFO ][GTPM_CONTR] accelWillLoadGuC: initializing...
+[ 1844.975538]: [IGFB][INFO ][GTPM_CONTR] accelDidLoadGuC
+[ 1844.977915]: [IGFB][INFO ][POWER     ] FB0: Power state transition completed
+[ 1844.977985]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1844.978092]: [IGFB][INFO ][POWER     ] FB1: power state transition Sleep --> Doze
+[ 1844.978645]: [IGFB][ERROR][DISPLAY   ] FB1: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.978648]: [IGFB][ERROR][DISPLAY   ] FB1: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.978754]: [IGFB][INFO ][POWER     ] FB1: Power state transition completed
+[ 1844.978834]: [IGFB][INFO ][POWER     ] FB2: power state transition Sleep --> Doze
+[ 1844.979322]: [IGFB][ERROR][DISPLAY   ] FB2: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.979324]: [IGFB][ERROR][DISPLAY   ] FB2: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 1844.980831]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 1844.980837]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 1844.980841]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 1844.980847]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 1844.980850]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 1844.980856]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 1844.980858]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 1845.005155]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 1845.026194]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 1845.050623]: [IGFB][INFO ][POWER     ] FB2: Power state transition completed
+[ 1845.050680]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 1845.050686]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:205
+[ 1881.630532]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:204
+[ 1881.632172]: [IGFB][INFO ][POWER     ] FB0: power state transition Doze --> Sleep
+[ 1881.634088]: [IGFB][INFO ][POWER     ] FB0: Power state transition completed
+[ 1881.634774]: [IGFB][INFO ][POWER     ] FB1: power state transition Doze --> Sleep
+[ 1881.636134]: [IGFB][INFO ][POWER     ] FB1: Power state transition completed
+[ 1881.639403]: [IGFB][INFO ][POWER     ] FB2: power state transition Doze --> Sleep
+[ 1882.147606]: [IGFB][INFO ][POWER     ] FB2: Power state transition completed
+[ 3878.649967]: [IGFB][ERROR][DISPLAY   ] FB0: setAttributeForConnection called when FB is in a sleep state - attribute: 'bklt'
+[ 3878.681918]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:205
+[ 3878.683179]: [IGFB][INFO ][POWER     ] FB0: power state transition Sleep --> Wake
+[ 3878.683303]: [IGFB][LOG  ][DISPLAY   ] CD clock reference frequency = 2
+[ 3878.684430]: [IGFB][LOG  ][DISPLAY   ] fNumofSuccessiveUnderruns is  1 
+[ 3878.684432]: [IGFB][LOG  ][DISPLAY   ] First underrun reported at 1381998 
+[ 3878.684446]: [IGFB][LOG  ][DISPLAY   ] fNumofSuccessiveUnderruns is  2 
+[ 3878.684463]: [IGFB][LOG  ][DISPLAY   ] fNumofSuccessiveUnderruns is  3 
+[ 3878.684470]: [IGFB][LOG  ][DISPLAY   ] fNumofSuccessiveUnderruns is  4 
+[ 3878.684471]: [IGFB][LOG  ][DISPLAY   ] Disabling Underrun due to more than 2 underruns in 50 ms 
+[ 3878.684471]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[ 3878.908614]: [IGFB][INFO ][POWER     ] Pipe A active on wake from sleep, system waking from hibernation
+[ 3878.908620]: [IGFB][ERROR][POWER_WELL] EFI should not enable PG4 power well - overriding
+[ 3878.910363]: [IGFB][ERROR][DISPLAY   ] FB0: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3878.910376]: [IGFB][ERROR][DISPLAY   ] FB0: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3878.910802]: [IGFB][INFO ][GTPM_CONTR] accelWillLoadGuC: initializing...
+[ 3878.942802]: [IGFB][INFO ][GTPM_CONTR] accelDidLoadGuC
+[ 3878.960128]: [IGFB][ERROR][PANEL     ] TCON: Aux not ready at HW
+[ 3878.960132]: [IGFB][ERROR][PANEL     ] TCON: BAN_DPCD_0x0_EXPECTED failed, got 41820a11
+[ 3878.970598]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[ 3878.970601]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[ 3878.970616]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[ 3878.970622]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[ 3878.970622]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[ 3878.970624]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[ 3878.970625]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[ 3878.970626]: [IGFB][LOG  ][DISPLAY   ] timing hs=2880, vs=1620
+[ 3878.970626]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[ 3878.970627]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[ 3878.970627]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[ 3878.970628]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[ 3878.970628]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[ 3878.970629]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[ 3878.970630]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[ 3878.970630]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[ 3878.970631]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[ 3878.970631]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[ 3878.970632]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[ 3878.970633]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[ 3878.970634]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[ 3878.970634]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0xb3f0653
+[ 3878.970635]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[ 3878.970635]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[ 3878.970636]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[ 3878.970637]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[ 3878.970638]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[ 3878.970640]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[ 3878.970643]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[ 3878.970643]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[ 3878.970644]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[ 3878.970646]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable OFF->OFF
+[ 3878.970647]: [IGFB][LOG  ][MODESET   ] PLANE_SURF 0->0x41000000
+[ 3878.970648]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating scaler
+[ 3878.970664]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[ 3878.970677]: [IGFB][LOG  ][DISPLAY   ] Restoring transaction
+[ 3878.971492]: [IGFB][ERROR][DISPLAY   ] FB0: getAttributeForConnection called when FB is in a sleep state - attribute: 'aupr'
+[ 3878.971506]: [IGFB][INFO ][POWER     ] FB0: Power state transition completed
+[ 3878.971575]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3878.971592]: [IGFB][ERROR][DISPLAY   ] Display Pipe Underrun occurred on pipe(s) A  
+[ 3878.971597]: [IGFB][ERROR][DISPLAY   ] Display pipe underrun occurred on pipe(s) A  
+[ 3879.021606]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.071632]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.121674]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.171709]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.172399]: [IGFB][INFO ][POWER     ] FB1: power state transition Sleep --> Wake
+[ 3879.173169]: [IGFB][ERROR][DISPLAY   ] FB1: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3879.173173]: [IGFB][ERROR][DISPLAY   ] FB1: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3879.173839]: [IGFB][ERROR][DISPLAY   ] FB1: getAttributeForConnection called when FB is in a sleep state - attribute: 'aupr'
+[ 3879.173852]: [IGFB][INFO ][POWER     ] FB1: Power state transition completed
+[ 3879.221754]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.265657]: [IGFB][INFO ][POWER     ] FB2: power state transition Sleep --> Wake
+[ 3879.266445]: [IGFB][ERROR][DISPLAY   ] FB2: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3879.266449]: [IGFB][ERROR][DISPLAY   ] FB2: setAttribute called when FB is in a sleep state - attribute: ' dgs'
+[ 3879.268318]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.268322]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.268326]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.268336]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.268339]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.268347]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.268353]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.290177]: newUserClient: Invalid userClient Type request: 0[IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.369547]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.423625]: [IGFB][ERROR][DISPLAY   ] FB2: getAttributeForConnection called when FB is in a sleep state - attribute: 'aupr'
+[ 3879.424406]: [IGFB][INFO ][POWER     ] FB2: Power state transition completed
+[ 3879.424460]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:200
+[ 3879.424463]: [IGFB][LOG  ][ASMF      ] doCmdAction called - cmd:205
+[ 3879.681481]: [IGFB][LOG  ][DISPLAY   ] FB0: Closed clamshell status changed 0->1 
+[ 3879.681484]: [IGFB][LOG  ][DISPLAY   ] FB0: Closed clamshell status 1 online status request 1
+[ 3879.681486]: [IGFB][LOG  ][DISPLAY   ] FB0: ConnectionProbe - Setting Tiling mode, fOnline = 1, fOnlineStatusRequest = 1
+[ 3879.773787]: [IGFB][LOG  ][AGDC      ] Get link config
+[ 3879.773791]: [IGFB][LOG  ][DISPLAY   ] AGDC FB0 fOnline = 1 bootdisplay = 1 
+[ 3879.773795]: [IGFB][LOG  ][DISPLAY   ] FB0 reported as online to AGDC
+[ 3879.773902]: [IGFB][LOG  ][AGDC      ] Get port status
+[ 3879.773905]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 0, portType = 0, DDI = 0, port status = 1
+[ 3879.776959]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.776963]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.831830]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1383146053
+[ 3879.831837]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeWillChange notification received on fb 0
+[ 3879.833025]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 3879.833702]: [IGFB][LOG  ][DISPLAY   ] FB0: displayMode=80001003, depth=1, fOnline=1
+[ 3879.833748]: [IGFB][LOG  ][DISPLAY   ] FB0: fOnline=1 aw=1920, ah=1080, sw=2880, sh=1620, iw=0, ih=0 pixelClock=152600000 VBLextention=0 pixelEncoding=1 BPC=2 colorimetry=1 dynamicRange=1
+[ 3879.833792]: [IGFB][LOG  ][DISPLAY   ] Computing transform
+[ 3879.833794]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fFitterWidth = 0x0
+[ 3879.833796]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutWidth = 0xb40
+[ 3879.833797]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkScanoutHeight = 0x654
+[ 3879.833799]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingWidth = 0x780
+[ 3879.833800]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkTimingHeight = 0x438
+[ 3879.833802]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkVerticalOffset = 0x0
+[ 3879.833803]: [IGFB][LOG  ][DISPLAY   ] Pipe A: displayPath->fLinkHorizontalOffset = 0x0
+[ 3879.833808]: [IGFB][INFO ][MODESET   ]  FB0: Setting hardware mode pipe A
+[ 3879.833811]: [IGFB][INFO ][MODESET   ]  FB0: Enable GPU sub sampling: True
+[ 3879.833816]: [IGFB][LOG  ][DISPLAY   ] hwDisableUnderrunInterrupts:Disabling Underrun Interrupts 
+[ 3879.833826]: [IGFB][LOG  ][DISPLAY   ] FB0: Setting up clocks
+[ 3879.833827]: [IGFB][LOG  ][DISPLAY   ] Setting up clocks for DDI = 0
+[ 3879.833830]: [IGFB][LOG  ][DISPLAY   ] (FB0:<ptr>, timing=<ptr>, params=<ptr>)
+[ 3879.833832]: [IGFB][LOG  ][DISPLAY   ] timing ha=1920, va=1080
+[ 3879.833834]: [IGFB][LOG  ][DISPLAY   ] timing hs=2880, vs=1620
+[ 3879.833835]: [IGFB][LOG  ][DISPLAY   ] scalerFlags=0
+[ 3879.833836]: [IGFB][LOG  ][DISPLAY   ] signalConfig=0
+[ 3879.833837]: [IGFB][LOG  ][DISPLAY   ] vSyncConfig=0
+[ 3879.833838]: [IGFB][LOG  ][DISPLAY   ] hSyncConfig=0x1
+[ 3879.833847]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HTOTAL     = 0x8b5077f
+[ 3879.833848]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HBLANK     = 0x8b5077f
+[ 3879.833850]: [IGFB][LOG  ][DISPLAY   ]  TRANS_HSYNC      = 0x7cf07af
+[ 3879.833851]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VTOTAL     = 0x4730437
+[ 3879.833852]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VBLANK     = 0x4730437
+[ 3879.833856]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNC      = 0x440043a
+[ 3879.833857]: [IGFB][LOG  ][DISPLAY   ]  TRANS_VSYNCSHIFT = 0x0
+[ 3879.833859]: [IGFB][LOG  ][MODESET   ] FB0: setting up params for pipe A
+[ 3879.833861]: [IGFB][LOG  ][MODESET   ] TRANS_CLK_SEL = 0x0
+[ 3879.833862]: [IGFB][LOG  ][MODESET   ] PIPE_SRCSZ = 0xb3f0653
+[ 3879.833864]: [IGFB][LOG  ][MODESET   ] Encoder bits per color is 8
+[ 3879.833865]: [IGFB][LOG  ][MODESET   ] Pixel encoding is RGB
+[ 3879.833866]: [IGFB][LOG  ][MODESET   ] TRANS_MSA_MISC = 0x21
+[ 3879.833868]: [IGFB][LOG  ][MODESET   ] Dither is enabled in pipe misc
+[ 3879.833870]: [IGFB][LOG  ][DISPLAY   ] fCurrentCDClockFrequency = 1305600000, fPendingCDClockFrequency = 614400000
+[ 3879.833876]: [IGFB][LOG  ][DISPLAY   ] FB0: pixelClock=152600000, linkSymbolClock=324000000, colorDepth=24, noLanes=2
+[ 3879.833880]: [IGFB][LOG  ][DISPLAY   ] DataM value: 0x5a6dfc
+[ 3879.833881]: [IGFB][LOG  ][DISPLAY   ] LinkM value: 0x3c495
+[ 3879.833882]: [IGFB][LOG  ][DISPLAY   ] Calculated -> DataM1=0x7e5a6dfc, DataN1=0x800000, LinkM1=0x3c495, LinkN1=0x80000
+[ 3879.833899]: [IGFB][LOG  ][MODESET   ] Panel Fitter Enable ON->ON
+[ 3879.833901]: [IGFB][LOG  ][MODESET   ] FB0: Partial modeset by updating plane
+[ 3879.833905]: [IGFB][LOG  ][DISPLAY   ] hwEnableUnderrunInterrupts: Enabling underrun interrupts
+[ 3879.833912]: [IGFB][LOG  ][MODESET   ] FB0: Setting display mode 1920 x 1080 -> 2880 x 1620 at 152600000 Hz encoded with 0x1 2 bpc with color 1 and range 1
+[ 3879.833994]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.833997]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.835497]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.835500]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.835503]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.835511]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.835513]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.835521]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.835523]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3879.848765]: Sandbox: icdd(636) allow file-read-data /Library/Image Capture/Devices[IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.879760]: [IGFB][INFO ][VRR       ] Not Registering for VBL Interrupt - fLegacyVBLPath = 0, Proc = IOAF Handler!!
+[ 3879.901816]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1383216039
+[ 3879.901820]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyDisplayModeDidChange notification received on fb 0
+[ 3879.901823]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 2. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3879.901826]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 3879.904720]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3879.904725]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3880.277086]: [IGFB][LOG  ][DISPLAY   ] FB0: LineTime in Nano seconds = 14613
+[ 3880.277105]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[ 3880.470449]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1383784672
+[ 3880.470451]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 0
+[ 3880.470452]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.470454]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 3880.470467]: [IGFB][LOG  ][DISPLAY   ] FB0: kIOWindowServerActiveAttribute = 0x11
+[ 3880.470470]: [IGFB][LOG  ][DISPLAY   ] Restoring transaction
+[ 3880.470477]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 4dd00000 with 5 options at stride 11520
+[ 3880.486778]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 0 at time 1383801001
+[ 3880.486783]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 0
+[ 3880.486786]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB0: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.486791]: [IGFB][LOG  ][DISPLAY   ] Reporting Fake VBL for pipe 0 on Fb 0 
+[ 3880.486964]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 1383801187
+[ 3880.486967]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 1
+[ 3880.486970]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.486988]: [IGFB][LOG  ][DISPLAY   ] FB1: kIOWindowServerActiveAttribute = 0x11
+[ 3880.487012]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 1 at time 1383801234
+[ 3880.487015]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 1
+[ 3880.487017]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB1: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.487070]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 1383801293
+[ 3880.487073]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAAWillExitDefer notification received for fb 2
+[ 3880.487076]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 91. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.487092]: [IGFB][LOG  ][DISPLAY   ] FB2: kIOWindowServerActiveAttribute = 0x11
+[ 3880.487114]: [IGFB][LOG  ][DISPLAY   ] frameBufferNotificationcallback notification received on Fb 2 at time 1383801337
+[ 3880.487117]: [IGFB][LOG  ][DISPLAY   ] kIOFBNotifyWSAADidExitDefer notification received on fb 2
+[ 3880.487119]: [IGFB][LOG  ][DISPLAY   ] TxnHang1: FB2: FrameBufferNotificationCallback received. Event = 93. fTransactionState = kTransComplete, fLiveState = kTransLive
+[ 3880.487760]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 800 options at stride 11520
+[ 3880.488268]: [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
+[ 3880.564649]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[ 3880.642495]: [IGFB][LOG  ][DISPLAY   ] getCurrentDisplayMode: FB=0 fCurrentMode = 0x80001003 fCurrentDepth = 0x1, fBootDisplay = 1.
+[ 3880.642501]: [IGFB][LOG  ][DISPLAY   ] Setting current mode to 0x80001003 and depth=0x1, bPortraitMode 0, bAnotherRun 0.
+[ 3880.739148]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 55200000 with 1 options at stride 11520
+[ 3881.658665]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 54000000 with 801 options at stride 11520
+[ 3882.189316]: [IGFB][LOG  ][TRANSACTIO] [Flip_Transaction] FB0: Flipping display with wsaa 1 flipped from 2880 x 1620 -> 2880 x 1620 on 52e00000 with 1 options at stride 11520
+[ 3882.884253]: [IGFB][LOG  ][AGDC      ] Get port status
+[ 3882.884258]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 1, portType = 1, DDI = 2, port status = 0
+[ 3882.884519]: [IGFB][LOG  ][AGDC      ] Get port status
+[ 3882.884523]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 2, portType = 1, DDI = 3, port status = 0
+[ 3882.884645]: [IGFB][LOG  ][AGDC      ] Get port status
+[ 3882.884647]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 3, portType = 1, DDI = 4, port status = 0
+[ 3882.884734]: [IGFB][LOG  ][AGDC      ] Get port status
+[ 3882.884736]: [IGFB][LOG  ][DISPLAY   ] Getting port status for portIndex = 4, portType = 1, DDI = 5, port status = 0
+[ 3883.946765]: connect() - failed necp_set_socket_domain_attributesconnect() - failed necp_set_socket_domain_attributes[IGFB][LOG  ][PANEL     ] [key:0x100/on:1] fPSREnablekeys: 0x00000edf -> 0x00000fdf (fullset:0x00001fff)
+[ 3894.708670]: [IGFB][LOG  ][DISPLAY   ] FB0: Closed clamshell status changed 1->0 
+[ 3894.708676]: [IGFB][LOG  ][DISPLAY   ] FB0: Closed clamshell status 0 online status request 1
+[ 3894.708678]: [IGFB][LOG  ][DISPLAY   ] FB0: ConnectionProbe - Setting Tiling mode, fOnline = 1, fOnlineStatusRequest = 1
