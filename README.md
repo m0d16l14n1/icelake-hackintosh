@@ -13,9 +13,9 @@
 | 5. Black screen after wake up with kernel panic after | [LINK](https://github.com/acidanthera/bugtracker/issues/1207) | FIXED/WA > add `-noDC9` boot-arg |
 | 6. **Screen is more dim in macOS** | Some Dell/Lenovo/Razer/HP laptops have this issue. Brightness is much lower in macOS compared to Windows or Linux. | Add `enable-backlight-registers-fix` property to IGPU or use the `-igfxblr` boot argument. |
 | 7. Black screen bug with 4k internal screens | Some Dells have that issue, still unclear why it's happening, no logs found | Currently no WA available / No fix or patch |
-| 8. Panic after waking from sleep with external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg `dc6config=0` P.S. - it might break when waking from sleep in Ventura** |
+| 8. Panic after waking from sleep with an external screen connected (any panic related to DC6 screen state) | Seems that some Ice Lake laptops have issues with those states (DC6/DC9) | You can simply "disable" DC6 by using boot-arg `dc6config=0` P.S. - it might break when waking from sleep in Ventura** |
 
-** Explanation from [0xFireWolf]: 
+**Explanation from [0xFireWolf]:** 
 1) `dc6config=0` will disable DC6. In essence, enableHWDC6() and disableHWDC6() become NOPs. i.e. They do nothing and simply return. 
 2) `dc6config=1` will enable DC6. The effect is the same as when the boot argument is not present. 
 3) `dc6config=5` will enable "DC6" but up to DC5. i.e. enableHWDC6() will write 0x1 to the low 2 bits of the register DC_STATE_EN.
@@ -41,7 +41,7 @@
 
 1) Use daliansky patches/SSDTs [LINK](https://github.com/alkindivv/OC-Little-English/tree/main/OC-Little-English/01-About%20AOAC%20) > Isn't so stable: battery life is low, some machines can't wake even with these patches
 2) Unlock BIOS settings > disable AOAC (Low power S0 idle or any S0ix stuff) > It's the most hard way, but the most "stable"
-3) Enable S3 sleep using a SSDT and ACPI rename (**Only if your DSDT has S3 present.**) Guide is [here](https://github.com/meghan06/XPS13-73902in1#enabling-s3-sleep), files can be viewed [here](https://github.com/meghan06/DellAOAC-Hotpatch). Second cleanest way / stable.
+3) Enable S3 sleep using a SSDT and ACPI rename for some of Dells (**Only if your DSDT has S3 present.**) Guide is [here](https://github.com/meghan06/XPS13-73902in1#enabling-s3-sleep), files can be viewed [here](https://github.com/meghan06/DellAOAC-Hotpatch). Second cleanest way / stable.
     * If your DSDT has `_S3`, this will work.
  
 However, there might still be a issue where your OEM vendor (for example [Dell](https://www.dell.com/community/XPS/XPS-15-9570-BIOS-1-3-0-sleep-mode-gone/td-p/6131926)) might disable/remove S3 state/event from DSDT entirely. 
@@ -52,7 +52,7 @@ However, there might still be a issue where your OEM vendor (for example [Dell](
 | Bug | Description/Details | Status |
 | ------ | ------ | ------ |
 | 1. EL[0] was invalidated!! | [LINK](https://github.com/acidanthera/bugtracker/issues/1343) | Need to enable GuC firmware loading > use device property for iGPU or boot-arg `igfxfw=2` |
-| 2. AppleHDA panic if you connect a external screen with speakers, which means no audio support for external screens | [1](https://github.com/acidanthera/bugtracker/issues/1616), [2](https://github.com/acidanthera/bugtracker/issues/1551), [3](https://github.com/acidanthera/bugtracker/issues/1283) | Add "No-gfx-hda" to HDEF (sound) device properties or [patch AppleALC yourself](https://github.com/acidanthera/bugtracker/issues/1283#issuecomment-824802110) or if you really want to use external sound, just disable AppleALC, enable patch for renaming HDAS to HDEF, after that you will be able to use DP/HDMI sound with AppleGFXHDA, but no analog sound will be available (speakers/headphones)|
+| 2. AppleHDA panic if you connect an external screen with speakers, which means no audio support for external screens | [1](https://github.com/acidanthera/bugtracker/issues/1616), [2](https://github.com/acidanthera/bugtracker/issues/1551), [3](https://github.com/acidanthera/bugtracker/issues/1283) | Add "No-gfx-hda" to HDEF (sound) device properties or [patch AppleALC yourself](https://github.com/acidanthera/bugtracker/issues/1283#issuecomment-824802110) or if you really want to use external sound, just disable AppleALC, enable patch for renaming HDAS to HDEF, after that you will be able to use DP/HDMI sound with AppleGFXHDA, but no analog sound will be available (speakers/headphones)|
 
 #### Thanks
 
